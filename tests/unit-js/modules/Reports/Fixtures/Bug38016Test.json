@@ -1,0 +1,61 @@
+{
+    "display_columns": [],
+    "module": "Accounts",
+    "group_defs": [
+        {
+            "name": "id",
+            "label": "ID",
+            "table_key": "self",
+            "type": "id"
+        }
+    ],
+    "summary_columns": [
+        {
+            "name": "id",
+            "label": "ID",
+            "table_key": "self"
+        },
+        {
+            "name": "amount",
+            "label": "SUM: Opportunity Amount",
+            "field_type": "currency",
+            "group_function": "sum",
+            "table_key": "Accounts:opportunities"
+        }
+    ],
+    "report_name": "Bug38016Test",
+    "chart_type": "none",
+    "do_round": 1,
+    "chart_description": "",
+    "numerical_chart_column": "Accounts:opportunities:amount:sum",
+    "numerical_chart_column_type": "currency",
+    "assigned_user_id": "1",
+    "report_type": "summary",
+    "full_table_list": {
+        "self": {
+            "value": "Accounts",
+            "module": "Accounts",
+            "label": "Accounts"
+        },
+        "Accounts:opportunities": {
+            "name": "Accounts  >  Opportunity",
+            "parent": "self",
+            "link_def": {
+                "name": "opportunities",
+                "relationship_name": "accounts_opportunities",
+                "bean_is_lhs": true,
+                "link_type": "many",
+                "label": "Opportunity",
+                "table_key": "Accounts:opportunities"
+            },
+            "dependents": ["display_summaries_row_2"],
+            "module": "Opportunities",
+            "label": "Opportunity"
+        }
+    },
+    "filters_def": {
+        "Filter_1": {
+            "operator": "AND"
+        }
+    }
+}

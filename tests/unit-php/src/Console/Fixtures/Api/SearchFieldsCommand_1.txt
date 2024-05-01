@@ -1,0 +1,13 @@
++----------+-------------+-------+
+| Module   | Field       | Boost |
++----------+-------------+-------+
+| Contacts | first_name  | 1.99  |
+| Contacts | last_name   | 1.97  |
+| Contacts | email       | 1.95  |
+| Contacts | portal_name | 1.93  |
+| Accounts | name        | 1.91  |
+| Accounts | email       | 1.89  |
+| Leads    | first_name  | 1.87  |
+| Leads    | last_name   | 1.85  |
+| Leads    | email       | 1.83  |
++----------+-------------+-------+

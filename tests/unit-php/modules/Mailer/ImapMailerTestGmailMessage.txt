@@ -1,0 +1,19 @@
+Content-Type: multipart/related; boundary="_004_295FB03FE6854D09AD88F852A2E0BB07sugarcrmcom_"; type="multipart/alternative"
+
+--_004_295FB03FE6854D09AD88F852A2E0BB07sugarcrmcom_
+Content-Type: multipart/alternative; boundary="_000_295FB03FE6854D09AD88F852A2E0BB07sugarcrmcom_"
+
+--_000_295FB03FE6854D09AD88F852A2E0BB07sugarcrmcom_
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: base64
+
+--_000_295FB03FE6854D09AD88F852A2E0BB07sugarcrmcom_--
+
+--_004_295FB03FE6854D09AD88F852A2E0BB07sugarcrmcom_
+Content-Type: image/png; name="image001.png"
+Content-Description: image001.png
+Content-Disposition: inline; filename="image001.png"; size=88102; creation-date="Thu, 14 Jan 2021 22:37:59 GMT"; modification-date="Thu, 14 Jan 2021 22:37:59 GMT"
+Content-ID: <image001.png@01D6EA82.D7C3CDB0>
+Content-Transfer-Encoding: base64
+
+--_004_295FB03FE6854D09AD88F852A2E0BB07sugarcrmcom_--

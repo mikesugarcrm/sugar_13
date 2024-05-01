@@ -1,0 +1,238 @@
+<!--
+/*
+ * Your installation or use of this SugarCRM file is subject to the applicable
+ * terms available at
+ * http://support.sugarcrm.com/Resources/Master_Subscription_Agreements/.
+ * If you do not agree to all of the applicable terms or do not have the
+ * authority to bind the entity as an authorized representative, then do not
+ * install or use this SugarCRM file.
+ *
+ * Copyright (C) SugarCRM Inc. All rights reserved.
+ */
+-->
+
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="../../vendor/phpunit/phpunit/phpunit.xsd"
+         colors="true"
+         beStrictAboutOutputDuringTests="true"
+         timeoutForSmallTests="100"
+         timeoutForMediumTests="145"
+         timeoutForLargeTests="165"
+         failOnRisky="true"
+         failOnWarning="true"
+         convertDeprecationsToExceptions="false"
+         bootstrap="bootstrap.php"
+>
+    <php>
+        <ini name="intl.default_locale" value="en"/>
+        <ini name="intl.error_level" value="0"/>
+        <ini name="memory_limit" value="-1"/>
+    </php>
+
+    <testsuites>
+        <testsuite name="SugarLogic">
+            <directory>./include/Expressions/Expression</directory>
+        </testsuite>
+        <testsuite name="Sugar FRM Test Suite">
+            <directory>./metadata/</directory>
+            <directory>./modules/Audit/</directory>
+            <directory>./modules/ACL/</directory>
+            <directory>./modules/ACLActions/</directory>
+            <directory>./modules/Administration/</directory>
+            <directory>./modules/Configurator/</directory>
+            <directory>./modules/Connectors/</directory>
+            <directory>./modules/DynamicFields/</directory>
+            <directory>./modules/Employees/</directory>
+            <directory>./modules/ExpressionEngine/</directory>
+            <directory>./modules/Expression/</directory>
+            <directory>./modules/Home/</directory>
+            <directory>./modules/Import/</directory>
+            <directory>./modules/ModuleBuilder/</directory>
+            <directory>./modules/MySettings/</directory>
+            <directory>./modules/OAuthKeys/</directory>
+            <directory>./modules/SNIP/</directory>
+            <directory>./modules/SavedSearch/</directory>
+            <directory>./modules/Schedulers/</directory>
+            <directory>./modules/SchedulersJobs/</directory>
+            <directory>./modules/Studio/</directory>
+            <directory>./modules/SubPanel/</directory>
+            <directory>./modules/SugarFavorites/</directory>
+            <directory>./modules/TeamNotices/</directory>
+            <directory>./modules/Teams/</directory>
+            <directory>./modules/Trackers/</directory>
+            <directory>./modules/UpgradeWizard/</directory>
+            <directory>./modules/UserPreferences/</directory>
+            <directory>./modules/Users/</directory>
+            <directory>./modules/WebLogicHook/</directory>
+            <directory>./modules/KBContents/</directory>
+            <directory>./modules/Categories/</directory>
+            <directory>./modules/MobileDevices/</directory>
+            <!-- global failures, tests are excluded -->
+            <exclude>./metadata/Bug33522Test.php</exclude>
+            <exclude>./metadata/MetaDataLocationChangeTest.php</exclude>
+        </testsuite>
+        <testsuite name="Sugar Include Test Suite">
+            <directory>./include/</directory>
+        </testsuite>
+        <testsuite name="Sugar Core Test Suite">
+            <directory>./data/</directory>
+            <directory>./upgrade/</directory>
+            <directory>./install/</directory>
+            <directory>./jssource/</directory>
+            <directory>./src</directory>
+            <directory>./ModuleInstall/</directory>
+            <directory>./HealthCheck/</directory>
+            <directory>./vendor/</directory>
+        </testsuite>
+        <testsuite name="Sugar API Test Suite">
+            <directory>./clients/base/api/</directory>
+            <directory>./clients/portal/api/</directory>
+            <directory>./tests/</directory>
+        </testsuite>
+        <testsuite name="Sugar SC Test Suite">
+            <directory>./modules/Calendar/</directory>
+            <directory>./modules/Calls/</directory>
+            <directory>./modules/iCals/</directory>
+            <directory>./modules/Meetings/</directory>
+            <directory>./modules/Project/</directory>
+            <directory>./modules/ProjectTask/</directory>
+            <directory>./modules/Workflow/</directory>
+            <directory>./modules/History/</directory>
+        </testsuite>
+        <testsuite name="Sugar TY Test Suite">
+            <file>./clients/base/api/FilterApiTest.php</file>
+            <file>./clients/base/api/PersonFilterApiTest.php</file>
+            <file>./data/duplicatecheck/FilterDuplicateCheckTest.php</file>
+            <!-- FIXME TY-1337: Investigate if we should delete the rest tests -->
+            <!-- <file>./rest/RestAuditTest.php</file> -->
+            <!-- <file>./rest/RestCurrentUserPortalTest.php</file> -->
+            <!-- <file>./rest/RestCurrentUserTest.php</file> -->
+            <!-- <file>./rest/RestMassUpdateTest.php</file> -->
+            <!-- <file>./rest/RestPortalMetadataviewDefsTest.php</file> -->
+            <!-- <file>./rest/RestPortalSecurityTest.php</file> -->
+            <directory>./include/MassUpdate</directory>
+            <directory>./include/tcpdf</directory>
+            <directory>./modules/Accounts/</directory>
+            <directory>./modules/Audit/</directory>
+            <directory>./modules/Bugs/</directory>
+            <directory>./modules/Contacts/</directory>
+            <directory>./modules/Dashboards/</directory>
+            <directory>./modules/Documents/</directory>
+            <directory>./modules/Employees/</directory>
+            <directory>./modules/Filters/</directory>
+            <directory>./modules/MassUpdate</directory>
+            <directory>./modules/Notes/</directory>
+            <directory>./modules/Tasks/</directory>
+            <directory>./modules/UserPreferences/</directory>
+            <directory>./modules/Users/</directory>
+            <!-- FIXME TY-1297: Investigate why these tests are failing -->
+            <exclude>./modules/Accounts/clients/base/api/RS172Test.php</exclude>
+            <exclude>./modules/Tasks/Bug56584Test.php</exclude>
+            <exclude>./modules/Users/authentication/SAMLAuthenticate/Bug50936Test.php</exclude>
+            <exclude>./modules/Users/authentication/SAMLAuthenticate/Bug57454Test.php</exclude>
+            <exclude>./modules/Users/authentication/SAMLAuthenticate/SAMLAuthenticateTest.php</exclude>
+            <exclude>./modules/Users/authentication/SAMLAuthenticate/SamlLogoutTest.php</exclude>
+            <exclude>./modules/Users/authentication/SAMLAuthenticate/SamlSettingsTest.php</exclude>
+        </testsuite>
+        <testsuite name="Sugar MAR Test Suite">
+            <directory>./modules/ActivityStream/</directory>
+            <directory>./modules/Leads/</directory>
+            <directory>./modules/ProspectLists/</directory>
+            <directory>./modules/Prospects/</directory>
+        </testsuite>
+        <testsuite name="Sugar SFA Test Suite">
+            <directory>./include/SugarForecasting/</directory>
+            <directory>./modules/Contracts/</directory>
+            <directory>./modules/Currencies/</directory>
+            <directory>./modules/ForecastManagerWorksheets/</directory>
+            <directory>./modules/Forecasts/</directory>
+            <directory>./modules/ForecastWorksheets/</directory>
+            <directory>./modules/Opportunities/</directory>
+            <directory>./modules/ProductBundles/</directory>
+            <directory>./modules/ProductTemplates/</directory>
+            <directory>./modules/Products/</directory>
+            <directory>./modules/RevenueLineItems/</directory>
+            <directory>./modules/Quotas/</directory>
+            <directory>./modules/Quotes/</directory>
+            <directory>./modules/TimePeriods/</directory>
+            <!-- global failures, tests are excluded -->
+            <exclude>./modules/Quotas/QuotaTest.php</exclude>
+        </testsuite>
+        <testsuite name="ProcessAuthor">
+            <directory>./pmse/modules</directory>
+            <directory>./modules/pmse_Inbox</directory>
+            <directory>./modules/pmse_Project</directory>
+            <directory>./modules/pmse_Business_Rules</directory>
+            <directory>./modules/pmse_Emails_Templates</directory>
+            <exclude>./pmse/modules/pmse_Inbox/engine/PMSEElements/PMSEChangeFieldTest.php</exclude>
+            <exclude>./pmse/modules/pmse_Inbox/engine/PMSEEngineUtilsTest.php</exclude>
+            <exclude>./pmse/modules/pmse_Inbox/engine/PMSEHandlers/PMSEBeanHandlerTest.php</exclude>
+            <exclude>./pmse/modules/pmse_Inbox/engine/PMSELoggerTest.php</exclude>
+            <exclude>./pmse/modules/pmse_Inbox/engine/PMSEImporterTest.php</exclude>
+            <exclude>./pmse/modules/pmse_Inbox/engine/PMSEProjectImporterTest.php</exclude>
+            <exclude>./pmse/modules/pmse_Inbox/engine/PMSEHandlers/PMSEUserAssignmentHandlerTest.php</exclude>
+            <exclude>./pmse/modules/pmse_Inbox/engine/parser/PMSEDataParserGatewayTest.php</exclude>
+            <exclude>./pmse/modules/pmse_Project/clients/base/api/wrappers/PMSEActivityDefinitionWrapperTest.php</exclude>
+            <exclude>./pmse/modules/pmse_Project/clients/base/api/wrappers/PMSEProjectWrapperTest.php</exclude>
+        </testsuite>
+        <testsuite name="TbACL">
+            <file>./clients/base/api/TeamBasedACLExportApiTest.php</file>
+            <file>./data/visibility/ACLVisibilityTest.php</file>
+            <file>./data/visibility/TeamBasedACLVisibilityTest.php</file>
+            <file>./include/TeamBasedACLConfiguratorTest.php</file>
+            <file>./modules/Import/TeamBasedACLImportTest.php</file>
+            <file>./modules/ACL/TeamBasedACLModuleTest.php</file>
+            <file>./modules/ACL/TeamBasedACLFieldTest.php</file>
+        </testsuite>
+        <testsuite name="Emails">
+            <file>./data/Relationships/EmailRelationshipsTest.php</file>
+            <file>./data/visibility/EmailsVisibilityTest.php</file>
+            <directory>./include/OutboundEmail</directory>
+            <directory>./include/SugarEmailAddress</directory>
+            <directory>./include/SugarFields/Fields/Email</directory>
+            <directory>./include/SugarFolders</directory>
+            <directory>./modules/CampaignLog</directory>
+            <directory>./modules/Campaigns</directory>
+            <directory>./modules/CampaignTrackers</directory>
+            <directory>./modules/EmailAddresses</directory>
+            <directory>./modules/EmailMan</directory>
+            <directory>./modules/EmailParticipants</directory>
+            <directory>./modules/Emails</directory>
+            <directory>./modules/EmailTemplates</directory>
+            <directory>./modules/InboundEmail</directory>
+            <directory>./modules/Mailer</directory>
+            <directory>./modules/OutboundEmail</directory>
+            <directory>./modules/OutboundEmailConfiguration</directory>
+            <directory>./modules/SNIP</directory>
+            <directory>./modules/UserSignatures</directory>
+        </testsuite>
+        <testsuite name="Soap Test Suite">
+            <directory>./soap/</directory>
+        </testsuite>
+        <testsuite name="Customer Service">
+            <directory>./modules/BusinessCenters</directory>
+            <directory>./modules/Cases/</directory>
+        </testsuite>
+        <testsuite name="PubSub">
+            <directory>./src/PubSub</directory>
+            <directory>./modules/PubSub_ModuleEvent_PushSubs</directory>
+        </testsuite>
+    </testsuites>
+    <coverage>
+        <include>
+            <directory>../../clients</directory>
+            <directory>../../data</directory>
+            <directory>../../etc</directory>
+            <directory>../../include</directory>
+            <directory>../../modules</directory>
+            <directory>../../src</directory>
+            <directory>../../upgrade</directory>
+        </include>
+        <exclude>
+            <file>../../include/SugarObjects/templates/file/views/view.edit.php</file>
+        </exclude>
+    </coverage>
+    <listeners>
+        <listener class="IntegrationListener"/>
+    </listeners>
+</phpunit>

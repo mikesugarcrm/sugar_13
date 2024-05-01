@@ -1,0 +1,27 @@
+Content-Type: multipart/mixed; boundary="fake_boundary_1"
+
+--fake_boundary_1
+Content-type: multipart/alternative; boundary="fake_boundary_2"
+
+--fake_boundary_2
+Content-type: text/plain; charset=utf-8
+Content-transfer-encoding: base64
+
+VGhlIHBsYWluIHRleHQgbWVzc2FnZSBwYXJ0
+
+--fake_boundary_2
+Content-type: text/html; charset=utf-8
+Content-transfer-encoding: base64
+
+PGEgaHJlZj0iaHR0cHM6Ly9mYWtlLWxpbmsuY29tIj5UaGUgSFRNTCBtZXNzYWdlIHBhcnQ8L2E+
+--fake_boundary_2--
+
+--fake_boundary_1
+Content-Type: application/pdf; name="TestFile.pdf"
+Content-Description: TestFile.pdf
+Content-Disposition: attachment; filename="TestFile.pdf"
+Content-ID: <123@fake.contentID.com>
+Content-Transfer-Encoding: base64
+
+ZmFrZV9lbmNvZGVkX2F0dGFjaG1lbnRfZGF0YQ==
+--fake_boundary_1--

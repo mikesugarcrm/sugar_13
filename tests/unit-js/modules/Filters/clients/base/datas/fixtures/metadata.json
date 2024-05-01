@@ -1,0 +1,58 @@
+{
+    "filters": {
+        "basic": {
+            "meta": {
+                "default_filter": "test2",
+                "filters": [
+                    {
+                        "filter_definition": {
+                            "name": {
+                                "$starts": "A"
+                            }
+                        },
+                        "id": "test1",
+                        "name": "LBL_TEST1",
+                        "editable": false
+                    },
+                    {
+                        "filter_definition": {
+                            "name": {
+                                "$starts": "B"
+                            }
+                        },
+                        "id": "test2",
+                        "name": "LBL_TEST2",
+                        "editable": false
+                    }
+                ]
+            }
+        },
+        "company": {
+            "meta": {
+                "default_filter": "test3",
+                "filters": [
+                    {
+                        "filter_definition": {
+                            "name": {
+                                "$starts": "C"
+                            }
+                        },
+                        "id": "test3",
+                        "name": "LBL_TEST3",
+                        "editable": false
+                    },
+                    {
+                        "filter_definition": {
+                            "name": {
+                                "$starts": ""
+                            }
+                        },
+                        "id": "test4",
+                        "name": "LBL_TEST4",
+                        "is_template": true
+                    }
+                ]
+            }
+        }
+    }
+}

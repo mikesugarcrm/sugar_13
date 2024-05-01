@@ -1,0 +1,178 @@
+{
+    "encoded": {
+        "labelValue": "test",
+        "required": false,
+        "readonly": false,
+        "source": "non-db",
+        "name": "test_c",
+        "vname": "LBL_TEST",
+        "type": "actionbutton",
+        "massupdate": false,
+        "hidemassupdate": false,
+        "no_default": false,
+        "comments": "",
+        "help": "",
+        "importable": "true",
+        "duplicate_merge": "enabled",
+        "duplicate_merge_dom_value": 1,
+        "audited": false,
+        "reportable": true,
+        "unified_search": false,
+        "merge_filter": "disabled",
+        "pii": false,
+        "calculated": false,
+        "size": 50,
+        "studio": "visible",
+        "dbType": "text",
+        "options": "{\"settings\":{\"type\":\"YnV0dG9u\",\"size\":\"ZGVmYXVsdA==\",\"showFieldLabel\":false,\"showInRecordHeader\":true,\"hideOnEdit\":false},\"buttons\":{\"d0e8d00f-1a63-4e6f-ab3a-64a45463a541\":{\"active\":true,\"buttonId\":\"ZDBlOGQwMGYtMWE2My00ZTZmLWFiM2EtNjRhNDU0NjNhNTQx\",\"orderNumber\":0,\"properties\":{\"label\":\"Q3JlYXRl\",\"description\":\"Q3JlYXRlIFRvb2x0aXA=\",\"showLabel\":true,\"showIcon\":true,\"colorScheme\":\"cHJpbWFyeQ==\",\"icon\":\"c2ljb24tcGx1cw==\",\"isDependent\":false,\"formula\":\"aG91ck9mRGF5KA==\"},\"actions\":{\"e9b53536-74cf-42c9-b8f0-94e367b66ea5\":{\"actionType\":\"Y3JlYXRlLXJlY29yZA==\",\"orderNumber\":0,\"properties\":{\"attributes\":{\"name\":{\"fieldName\":\"bmFtZQ==\",\"isCalculated\":false,\"formula\":\"\",\"value\":{\"name\":\"dGVzdA==\"}},\"description\":{\"fieldName\":\"ZGVzY3JpcHRpb24=\",\"isCalculated\":true,\"formula\":\"ImFzZCI=\",\"value\":{}}},\"parentAttributes\":[],\"module\":\"QWNjb3VudHM=\",\"link\":\"\",\"mustLinkRecord\":false,\"copyFromParent\":false,\"autoCreate\":true,\"calculated\":true}}}},\"e324c985-fc49-42a5-a539-d7ea3e975b2e\":{\"active\":false,\"buttonId\":\"ZTMyNGM5ODUtZmM0OS00MmE1LWE1MzktZDdlYTNlOTc1YjJl\",\"orderNumber\":1,\"properties\":{\"label\":\"QXNzaWdu\",\"description\":\"QXNzaWduIFRvb2x0aXA=\",\"showLabel\":true,\"showIcon\":true,\"colorScheme\":\"cHJpbWFyeQ==\",\"icon\":\"c2ljb24tdXNlcg==\",\"isDependent\":false,\"formula\":\"\"},\"actions\":{\"382cd86e-7f7c-4cd7-b45b-104feeae9419\":{\"actionType\":\"YXNzaWduLXJlY29yZA==\",\"orderNumber\":0,\"properties\":{\"id\":\"MQ==\",\"name\":\"QWRtaW5pc3RyYXRvcg==\"}}}},\"a44faaa6-3eca-4d82-9b66-fe4ceae37b10\":{\"active\":false,\"buttonId\":\"YTQ0ZmFhYTYtM2VjYS00ZDgyLTliNjYtZmU0Y2VhZTM3YjEw\",\"orderNumber\":2,\"properties\":{\"label\":\"T3BlbiBVcmw=\",\"description\":\"T3BlbiBVcmwgVG9vbHRpcA==\",\"showLabel\":true,\"showIcon\":true,\"colorScheme\":\"cHJpbWFyeQ==\",\"icon\":\"c2ljb24tZW1haWw=\",\"isDependent\":false,\"formula\":\"\"},\"actions\":{\"5347a7de-2d54-48f4-bc79-164f26e80407\":{\"actionType\":\"b3Blbi11cmw=\",\"orderNumber\":0,\"properties\":{\"url\":\"aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbQ==\",\"calculated\":false,\"formula\":\"\"}}}},\"918ba289-2d9e-4df9-8fb5-4436ae1b8f43\":{\"active\":false,\"buttonId\":\"OTE4YmEyODktMmQ5ZS00ZGY5LThmYjUtNDQzNmFlMWI4ZjQz\",\"orderNumber\":3,\"properties\":{\"label\":\"VXBkYXRl\",\"description\":\"VXBkYXRlIFRvb2x0aXA=\",\"showLabel\":true,\"showIcon\":true,\"colorScheme\":\"cHJpbWFyeQ==\",\"icon\":\"c2ljb24tc2V0dGluZ3M=\",\"isDependent\":false,\"formula\":\"\"},\"actions\":{\"b683bde6-ad17-48c3-bf40-a83807aa8c14\":{\"actionType\":\"dXBkYXRlLXJlY29yZA==\",\"orderNumber\":0,\"properties\":{\"fieldsToBeUpdated\":{\"name\":{\"fieldName\":\"bmFtZQ==\",\"isCalculated\":false,\"formula\":\"\",\"value\":{\"name\":\"dGVzdA==\"}}},\"autoSave\":false}}}}}}",
+        "id": "b4b133c2-b704-11eb-8f72-0242ac130008",
+        "custom_module": "Accounts"
+    },
+    "decoded": {
+        "settings": {
+            "type": "button",
+            "size": "default",
+            "showFieldLabel": false,
+            "showInRecordHeader": true,
+            "hideOnEdit": false,
+            "hasCalculatedButtons": false
+        },
+        "buttons": {
+            "d0e8d00f-1a63-4e6f-ab3a-64a45463a541": {
+                "active": true,
+                "buttonId": "d0e8d00f-1a63-4e6f-ab3a-64a45463a541",
+                "orderNumber": 0,
+                "properties": {
+                    "label": "Create",
+                    "description": "Create Tooltip",
+                    "showLabel": true,
+                    "showIcon": true,
+                    "colorScheme": "primary",
+                    "icon": "sicon-plus",
+                    "isDependent": false,
+                    "formula": "hourOfDay(",
+                    "hasBeenCalculated": true
+                },
+                "actions": {
+                    "e9b53536-74cf-42c9-b8f0-94e367b66ea5": {
+                        "actionType": "create-record",
+                        "orderNumber": 0,
+                        "properties": {
+                            "attributes": {
+                                "name": {
+                                    "fieldName": "name",
+                                    "isCalculated": false,
+                                    "formula": "",
+                                    "value": {
+                                        "name": "test"
+                                    }
+                                },
+                                "description": {
+                                    "fieldName": "description",
+                                    "isCalculated": true,
+                                    "formula": "\"asd\"",
+                                    "value": {}
+                                }
+                            },
+                            "parentAttributes": [],
+                            "module": "Accounts",
+                            "link": "",
+                            "mustLinkRecord": false,
+                            "copyFromParent": false,
+                            "autoCreate": true,
+                            "calculated": true
+                        }
+                    }
+                }
+            },
+            "e324c985-fc49-42a5-a539-d7ea3e975b2e": {
+                "active": false,
+                "buttonId": "e324c985-fc49-42a5-a539-d7ea3e975b2e",
+                "orderNumber": 1,
+                "properties": {
+                    "label": "Assign",
+                    "description": "Assign Tooltip",
+                    "showLabel": true,
+                    "showIcon": true,
+                    "colorScheme": "primary",
+                    "icon": "sicon-user",
+                    "isDependent": false,
+                    "formula": "",
+                    "hasBeenCalculated": true
+                },
+                "actions": {
+                    "382cd86e-7f7c-4cd7-b45b-104feeae9419": {
+                        "actionType": "assign-record",
+                        "orderNumber": 0,
+                        "properties": {
+                            "id": "1",
+                            "name": "Administrator"
+                        }
+                    }
+                }
+            },
+            "a44faaa6-3eca-4d82-9b66-fe4ceae37b10": {
+                "active": false,
+                "buttonId": "a44faaa6-3eca-4d82-9b66-fe4ceae37b10",
+                "orderNumber": 2,
+                "properties": {
+                    "label": "Open Url",
+                    "description": "Open Url Tooltip",
+                    "showLabel": true,
+                    "showIcon": true,
+                    "colorScheme": "primary",
+                    "icon": "sicon-email",
+                    "isDependent": false,
+                    "formula": "",
+                    "hasBeenCalculated": true
+                },
+                "actions": {
+                    "5347a7de-2d54-48f4-bc79-164f26e80407": {
+                        "actionType": "open-url",
+                        "orderNumber": 0,
+                        "properties": {
+                            "url": "https://www.google.com",
+                            "calculated": false,
+                            "formula": ""
+                        }
+                    }
+                }
+            },
+            "918ba289-2d9e-4df9-8fb5-4436ae1b8f43": {
+                "active": false,
+                "buttonId": "918ba289-2d9e-4df9-8fb5-4436ae1b8f43",
+                "orderNumber": 3,
+                "properties": {
+                    "label": "Update",
+                    "description": "Update Tooltip",
+                    "showLabel": true,
+                    "showIcon": true,
+                    "colorScheme": "primary",
+                    "icon": "sicon-settings",
+                    "isDependent": false,
+                    "formula": "",
+                    "hasBeenCalculated": true
+                },
+                "actions": {
+                    "b683bde6-ad17-48c3-bf40-a83807aa8c14": {
+                        "actionType": "update-record",
+                        "orderNumber": 0,
+                        "properties": {
+                            "fieldsToBeUpdated": {
+                                "name": {
+                                    "fieldName": "name",
+                                    "isCalculated": false,
+                                    "formula": "",
+                                    "value": {
+                                        "name": "test"
+                                    }
+                                }
+                            },
+                            "autoSave": false
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

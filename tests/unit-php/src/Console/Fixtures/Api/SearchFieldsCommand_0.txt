@@ -1,0 +1,13 @@
++-----------+------------------+----------+------------+-------+
+| Module    | Field            | Type     | Searchable | Boost |
++-----------+------------------+----------+------------+-------+
+| Accounts  | name             | name     | yes        | 1.91  |
+| Accounts  | date_entered     | datetime | no         | n/a   |
+| Accounts  | description      | text     | yes        | 0.72  |
+| Accounts  | phone_fax        | phone    | yes        | 1.04  |
+| Contracts | name             | name     | yes        | 1.59  |
+| Contracts | date_entered     | datetime | no         | n/a   |
+| Contracts | modified_user_id | id       | no         | n/a   |
+| Contracts | description      | text     | yes        | 0.63  |
+| Contracts | reference_code   | varchar  | yes        | 0.62  |
++-----------+------------------+----------+------------+-------+

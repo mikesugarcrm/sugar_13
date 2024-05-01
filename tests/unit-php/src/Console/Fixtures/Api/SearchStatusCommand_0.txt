@@ -1,0 +1,7 @@
++-----------------+
+| Enabled modules |
++-----------------+
+| Accounts        |
+| Contacts        |
++-----------------+
+SearchEngine AVAILABLE

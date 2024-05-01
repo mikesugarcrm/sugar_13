@@ -1,0 +1,208 @@
+{
+  "_hash": "allMetaHash",
+  "modules": {
+    "RevenueLineItems": {
+      "config": {
+        "opps_view_by": "RevenueLineItems"
+      },
+      "fields": {
+        "account_name": {
+          "name": "account_name",
+          "rname": "name",
+          "id_name": "account_id",
+          "vname": "LBL_ACCOUNT_NAME",
+          "type": "relate",
+          "table": "accounts",
+          "join_name": "accounts",
+          "isnull": "true",
+          "module": "Accounts",
+          "dbType": "varchar",
+          "link": "accounts",
+          "len": "255",
+          "source": "non-db",
+          "unified_search": true,
+          "required": true,
+          "importable": "required"
+        },
+        "account_id": {
+          "name": "account_id",
+          "vname": "LBL_ACCOUNT_ID",
+          "type": "id",
+          "source": "non-db",
+          "audited": true
+        },
+        "account_link": {
+          "name": "account_link",
+          "type": "link",
+          "relationship": "revenuelineitems_accounts"
+        },
+        "opportunity_id": {
+          "name": "opportunity_id",
+          "type": "id",
+          "vname": "LBL_OPPORTUNITY_ID",
+          "required": true,
+          "reportable": false,
+          "isnull": "true",
+          "comment": "The opportunity id for the line item entry"
+        },
+        "opportunity_name": {
+          "name": "opportunity_name",
+          "rname": "name",
+          "id_name": "opportunity_id",
+          "vname": "LBL_OPPORTUNITY_NAME",
+          "required": true,
+          "join_name": "opportunities",
+          "type": "relate",
+          "save": true,
+          "link": "opportunities",
+          "table": "opportunities",
+          "isnull": "true",
+          "module": "Opportunities",
+          "source": "non-db",
+          "comment": "The opportunity name associated with the opportunity_id",
+          "auto_populate": true,
+          "populate_list": {
+            "account_id": "account_id",
+            "account_name": "account_name"
+          }
+        },
+        "opportunities": {
+          "name": "opportunities",
+          "type": "link",
+          "relationship": "opportunities_revenuelineitems",
+          "source": "non-db",
+          "link_type": "one",
+          "module": "Opportunities",
+          "bean_name": "Opportunity",
+          "vname": "LBL_OPPORTUNITIES"
+        }
+      },
+      "dependencies": [
+        {
+          "trigger": "true",
+          "triggerFields": [
+            "opportunities"
+          ],
+          "relatedFields": [
+            "opportunities"
+          ]
+        }
+      ]
+    },
+    "Opportunities": {
+      "config": {
+        "opps_view_by": "Opportunities"
+      },
+      "fields": {
+        "account_name": {
+          "name": "account_name",
+          "rname": "name",
+          "id_name": "account_id",
+          "vname": "LBL_ACCOUNT_NAME",
+          "type": "relate",
+          "table": "accounts",
+          "join_name": "accounts",
+          "isnull": "true",
+          "module": "Accounts",
+          "dbType": "varchar",
+          "link": "accounts",
+          "len": "255",
+          "source": "non-db",
+          "unified_search": true,
+          "required": true,
+          "importable": "required"
+        },
+        "account_id": {
+          "name": "account_id",
+          "vname": "LBL_ACCOUNT_ID",
+          "type": "id",
+          "source": "non-db",
+          "audited": true
+        },
+        "contacts": {
+          "name": "contacts",
+          "type": "link",
+          "relationship": "opportunities_contacts"
+        },
+        "accounts": {
+          "name": "accounts",
+          "type": "link",
+          "relationship": "accounts_opportunities"
+        },
+        "calls": {
+          "name": "calls",
+          "type": "link",
+          "relationship": "opportunity_calls"
+        },
+        "best_case": {
+          "name": "best_case",
+          "vname": "LBL_BEST",
+          "dbType": "currency",
+          "type": "currency",
+          "len": "26,6",
+          "validation": {
+            "type": "range",
+            "min": 0
+          },
+          "audited": true,
+          "related_fields": [
+            "currency_id",
+            "base_rate"
+          ],
+          "convertToBase": true,
+          "showTransactionalAmount": true
+        },
+        "date_closed_timestamp" : {
+          "name" : "date_closed_timestamp",
+          "vname" : "LBL_DATE_CLOSED_TIMESTAMP",
+          "type" : "ulong",
+          "studio" : {
+            "formula" : true,
+            "related" : true,
+            "recordview" : false,
+            "listview" : false,
+            "detailview" : false,
+            "searchview" : false,
+            "createview" : false,
+            "editField" : false
+          },
+          "reportable" : false,
+          "workflow" : false,
+          "massupdate" : false,
+          "enforced" : true,
+          "calculated" : true,
+          "formula" : "timestamp($date_closed}"
+        }
+      },
+      "relationships": {
+        "opportunity_calls": {
+          "lhs_module": "Opportunities",
+          "lhs_link": "calls",
+          "rhs_module": "Calls",
+          "rhs_link": "opportunities",
+          "relationship_type": "one-to-many"
+        },
+        "opportunities_revenuelineitems": {
+          "lhs_module": "Opportunities",
+          "lhs_table": "opportunities",
+          "lhs_key": "id",
+          "rhs_module": "RevenueLineItems",
+          "rhs_table": "revenue_line_items",
+          "rhs_key": "opportunity_id",
+          "relationship_type": "one-to-many"
+        }
+      },
+      "dependencies": [
+        {
+          "trigger": "true",
+          "triggerFields": [
+            "opportunities_revenuelineitems"
+          ],
+          "relatedFields": [
+            "opportunities_revenuelineitems"
+          ]
+        }
+      ]
+    }
+  }
+}

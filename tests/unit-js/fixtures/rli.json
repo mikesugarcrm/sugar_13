@@ -1,0 +1,233 @@
+{
+  "id": "55651906-8926-11e8-b669-243dad7bb98a",
+  "name": "Rubble Group Inc",
+  "date_entered": "2018-07-16T11:28:02-07:00",
+  "date_modified": "2018-07-16T11:28:02-07:00",
+  "modified_user_id": "seed_jim_id",
+  "modified_by_name": "Jim Brennan",
+  "modified_user_link": {
+    "full_name": "Jim Brennan",
+    "id": "seed_jim_id",
+    "_acl": {
+      "fields": [],
+      "_hash": "654d337e0e912edaa00dbb0fb3dc3c17"
+    }
+  },
+  "created_by": "seed_jim_id",
+  "created_by_name": "Jim Brennan",
+  "created_by_link": {
+    "full_name": "Jim Brennan",
+    "id": "seed_jim_id",
+    "_acl": {
+      "fields": [],
+      "_hash": "654d337e0e912edaa00dbb0fb3dc3c17"
+    }
+  },
+  "description": "",
+  "deleted": false,
+  "product_template_id": "51e48654-8926-11e8-9778-e998604b627e",
+  "product_template_name": "Alayna Gadget",
+  "rli_templates_link": {
+    "name": "Alayna Gadget",
+    "id": "51e48654-8926-11e8-9778-e998604b627e",
+    "_acl": {
+      "fields": [],
+      "_hash": "654d337e0e912edaa00dbb0fb3dc3c17"
+    }
+  },
+  "account_id": "0923a4a4-8926-11e8-ae2e-6dfbc235613d",
+  "total_amount": "3849.000000",
+  "type_id": "",
+  "quote_id": "",
+  "manufacturer_id": "",
+  "manufacturer_name": "",
+  "manufacturers": {
+    "name": "",
+    "id": "",
+    "_acl": {
+      "fields": [],
+      "_hash": "654d337e0e912edaa00dbb0fb3dc3c17"
+    }
+  },
+  "category_id": "51a2905a-8926-11e8-b6c6-34227fae55c2",
+  "category_name": "Brouse Widgets",
+  "rli_categories_link": {
+    "name": "Brouse Widgets",
+    "id": "51a2905a-8926-11e8-b6c6-34227fae55c2",
+    "_acl": {
+      "fields": [],
+      "_hash": "654d337e0e912edaa00dbb0fb3dc3c17"
+    }
+  },
+  "mft_part_num": "Super Star Holdings Inc 178525XYZ987",
+  "vendor_part_num": "",
+  "date_purchased": "",
+  "cost_price": "1924.500000",
+  "discount_price": "52.013514",
+  "discount_amount": "0.000000",
+  "discount_rate_percent": 0,
+  "discount_amount_usdollar": null,
+  "discount_select": false,
+  "deal_calc": "0.000000",
+  "deal_calc_usdollar": "",
+  "list_price": "3849.000000",
+  "cost_usdollar": "304.000000",
+  "discount_usdollar": "881.000000",
+  "list_usdollar": "881.000000",
+  "status": "",
+  "tax_class": "Taxable",
+  "website": "",
+  "weight": 12,
+  "quantity": 74,
+  "support_name": "",
+  "support_description": "",
+  "support_contact": "",
+  "support_term": "",
+  "date_support_expires": "",
+  "date_support_starts": "",
+  "pricing_formula": "",
+  "pricing_factor": null,
+  "serial_number": "",
+  "asset_number": "",
+  "book_value": "0.000000",
+  "book_value_usdollar": "",
+  "book_value_date": "",
+  "best_case": "4190.000000",
+  "likely_case": "3849.000000",
+  "worst_case": "3508.000000",
+  "date_closed": "2018-07-16",
+  "date_closed_timestamp": 1531765836,
+  "next_step": "",
+  "commit_stage": "exclude",
+  "sales_stage": "Value Proposition",
+  "probability": 30,
+  "lead_source": "Web Site",
+  "campaign_id": "",
+  "campaign_name": "",
+  "campaign_revenuelineitems": {
+    "name": "",
+    "id": "",
+    "_acl": {
+      "fields": [],
+      "_hash": "654d337e0e912edaa00dbb0fb3dc3c17"
+    }
+  },
+  "quote_name": "",
+  "quotes": {
+    "name": "",
+    "id": "",
+    "_acl": {
+      "fields": [],
+      "_hash": "654d337e0e912edaa00dbb0fb3dc3c17"
+    }
+  },
+  "opportunity_id": "5561f168-8926-11e8-a890-7f7c61060953",
+  "opportunity_name": "Rubble Group Inc - 160 Units",
+  "opportunities": {
+    "test_field" : "test_value",
+    "records": [
+      {
+        "name": "Rubble Group Inc - 160 Units",
+        "id": "5561f168-8926-11e8-a890-7f7c61060953",
+        "_acl": {
+          "fields": [],
+          "_hash": "654d337e0e912edaa00dbb0fb3dc3c17"
+        },
+        "best_case": 600,
+        "date_closed_timestamp": 1531765837
+      },
+      {
+        "name": "Rubble Group Inc - 160 Units",
+        "id": "5561f168-8926-11e8-a890-7f7c61060954",
+        "_acl": {
+          "fields": [],
+          "_hash": "654d337e0e912edaa00dbb0fb3dc3c17"
+        },
+        "best_case": 400,
+        "date_closed_timestamp": 1531765290
+      }
+    ]
+  },
+  "product_type": "Existing Business",
+  "type_name": "",
+  "revenuelineitem_types_link": {
+    "name": "",
+    "id": "",
+    "_acl": {
+      "fields": [],
+      "_hash": "654d337e0e912edaa00dbb0fb3dc3c17"
+    }
+  },
+  "account_name": "Rubble Group Inc",
+  "account_link": {
+    "name": "Rubble Group Inc",
+    "id": "0923a4a4-8926-11e8-ae2e-6dfbc235613d",
+    "_acl": {
+      "fields": [],
+      "_hash": "654d337e0e912edaa00dbb0fb3dc3c17"
+    }
+  },
+  "following": false,
+  "my_favorite": false,
+  "tag": [],
+  "locked_fields": [],
+  "assigned_user_id": "seed_jim_id",
+  "assigned_user_name": "Jim Brennan",
+  "assigned_user_link": {
+    "full_name": "Jim Brennan",
+    "id": "seed_jim_id",
+    "_acl": {
+      "fields": [],
+      "_hash": "654d337e0e912edaa00dbb0fb3dc3c17"
+    }
+  },
+  "team_count": "",
+  "team_count_link": {
+    "team_count": "",
+    "id": "East",
+    "_acl": {
+      "fields": [],
+      "_hash": "654d337e0e912edaa00dbb0fb3dc3c17"
+    }
+  },
+  "team_name": [
+    {
+      "id": "East",
+      "name": "East",
+      "name_2": "",
+      "primary": true,
+      "selected": false
+    },
+    {
+      "id": "1",
+      "name": "Global",
+      "name_2": "",
+      "primary": false,
+      "selected": false
+    },
+    {
+      "id": "West",
+      "name": "West",
+      "name_2": "",
+      "primary": false,
+      "selected": false
+    }
+  ],
+  "currency_id": "-99",
+  "base_rate": "1.000000",
+  "currency_name": "",
+  "currencies": {
+    "name": "",
+    "id": "-99",
+    "_acl": {
+      "fields": [],
+      "_hash": "654d337e0e912edaa00dbb0fb3dc3c17"
+    },
+    "symbol": ""
+  },
+  "currency_symbol": "",
+  "_acl": {
+    "fields": {}
+  },
+  "_module": "RevenueLineItems"
+}

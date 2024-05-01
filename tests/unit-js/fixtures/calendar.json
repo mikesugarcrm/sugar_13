@@ -1,0 +1,122 @@
+{
+    "events": {
+        "status": "success",
+        "message": "success api",
+        "data": [
+            {
+                "calendarId": "47fdf5b2-ebac-11eb-b1ee-0242ac140005",
+                "id": "2435a756-e959-11eb-bf60-0242ac140005",
+                "eventUsers": [
+                    "1"
+                ],
+                "assignedUserName": "Administrator",
+                "name": "call1",
+                "title": "call1",
+                "color": "#c0edff",
+                "module": "Calls",
+                "event_tooltip": "call1",
+                "day_event_template": "call1",
+                "week_event_template": "call1",
+                "month_event_template": "call1",
+                "agenda_event_template": "call1",
+                "timeline_event_template": "call1",
+                "schedulermonth_event_template": "call1",
+                "ical_event_template": "call1",
+                "dbclickRecordId": "2435a756-e959-11eb-bf60-0242ac140005",
+                "start": "2021-07-13 13:00:00+0000",
+                "end": "2021-07-13 14:30:00+0000",
+                "isAllDay": false
+            },
+            {
+                "calendarId": "47fdf5b2-ebac-11eb-b1ee-0242ac140005",
+                "id": "b802f4b8-eb91-11eb-bf30-0242ac140005",
+                "eventUsers": [
+                    "seed_will_id"
+                ],
+                "assignedUserName": "Will Westin",
+                "name": "will",
+                "title": "will",
+                "color": "#c0edff",
+                "module": "Calls",
+                "event_tooltip": "will",
+                "day_event_template": "will",
+                "week_event_template": "will",
+                "month_event_template": "will",
+                "agenda_event_template": "will",
+                "timeline_event_template": "will",
+                "schedulermonth_event_template": "will",
+                "ical_event_template": "will",
+                "dbclickRecordId": "b802f4b8-eb91-11eb-bf30-0242ac140005",
+                "start": "2021-07-23 09:00:00+0000",
+                "end": "2021-07-23 09:30:00+0000",
+                "isAllDay": false
+            }
+        ],
+        "users": [
+            {
+                "id": "1",
+                "name": "Administrator"
+            },
+            {
+                "id": "seed_will_id",
+                "name": "Will Westin"
+            }
+        ],
+        "startDate": "2021-05-30",
+        "endDate": "2021-09-04"
+    },
+    "eventsLoaded": {
+        "startDate": "2021-05-30",
+        "endDate": "2021-09-04",
+        "events": [
+            {
+                "recordId": "2435a756-e959-11eb-bf60-0242ac140005",
+                "calendarId": "47fdf5b2-ebac-11eb-b1ee-0242ac140005",
+                "id": "47fdf5b2-ebac-11eb-b1ee-0242ac140005_2435a756-e959-11eb-bf60-0242ac140005",
+                "eventUsers": [
+                    "1"
+                ],
+                "name": "call1",
+                "start": "2021-07-13T13:00:00.000Z",
+                "end": "2021-07-13T14:30:00.000Z",
+                "title": "call1",
+                "isAllDay": false,
+                "module": "Calls",
+                "event_tooltip": "call1",
+                "day_event_template": "call1",
+                "week_event_template": "call1",
+                "month_event_template": "call1",
+                "agenda_event_template": "call1",
+                "timeline_event_template": "call1",
+                "schedulermonth_event_template": "call1",
+                "dbclickRecordId": "2435a756-e959-11eb-bf60-0242ac140005",
+                "color": "#c0edff",
+                "assignedUserName": "Administrator"
+            },
+            {
+                "recordId": "b802f4b8-eb91-11eb-bf30-0242ac140005",
+                "calendarId": "47fdf5b2-ebac-11eb-b1ee-0242ac140005",
+                "id": "47fdf5b2-ebac-11eb-b1ee-0242ac140005_b802f4b8-eb91-11eb-bf30-0242ac140005",
+                "eventUsers": [
+                    "seed_will_id"
+                ],
+                "name": "will",
+                "start": "2021-07-23T09:00:00.000Z",
+                "end": "2021-07-23T09:30:00.000Z",
+                "title": "will",
+                "isAllDay": false,
+                "module": "Calls",
+                "event_tooltip": "will",
+                "day_event_template": "will",
+                "week_event_template": "will",
+                "month_event_template": "will",
+                "agenda_event_template": "will",
+                "timeline_event_template": "will",
+                "schedulermonth_event_template": "will",
+                "dbclickRecordId": "b802f4b8-eb91-11eb-bf30-0242ac140005",
+                "color": "#c0edff",
+                "assignedUserName": "Will Westin"
+            }
+        ]
+    }
+}

@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:2.1
+N:Sunil;Rusty;;Prof.;Esq
+FN:Rusty Sunil
+TITLE:Programmer
+ORG:SugarCRM Inc.
+ADR;HOME:;;123 Main Street;Cupertino;Santa Clara;950123;USA
+TEL;HOME;PREF:(408)123-4567
+TEL;WORK:(650)999-9876
+TEL;CELL:(408)000-1111
+EMAIL:a.s@a.com
+END:VCARD

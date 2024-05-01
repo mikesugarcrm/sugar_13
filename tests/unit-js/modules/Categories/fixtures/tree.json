@@ -1,0 +1,103 @@
+[
+    {
+        "id": "1",
+        "name": "First",
+        "date_entered": "2014-10-13 10:11:50",
+        "date_modified": "2014-10-13 10:11:50",
+        "modified_user_id": "1",
+        "created_by": "1",
+        "description": null,
+        "deleted": "0",
+        "source_id": null,
+        "source_type": null,
+        "source_meta": null,
+        "root": "76c5ad26-21db-1be5-85ee-54258f68dd4a",
+        "lft": "8",
+        "rgt": "9",
+        "lvl": "1",
+        "data": "First",
+        "_module": "Categories",
+        "metadata": {"id": "1"},
+        "attr": {"data-id": "1", "data-lvl": "1"},
+        "children": {
+            "records": [
+                {
+                    "id": "3",
+                    "name": "Third",
+                    "date_entered": "2014-10-13 10:11:51",
+                    "date_modified": "2014-10-13 10:11:51",
+                    "modified_user_id": "1",
+                    "created_by": "1",
+                    "description": null,
+                    "deleted": "0",
+                    "source_id": null,
+                    "source_type": null,
+                    "source_meta": null,
+                    "root": "76c5ad26-21db-1be5-85ee-54258f68dd4a",
+                    "lft": "9",
+                    "rgt": "10",
+                    "lvl": "1",
+                    "data": "Third",
+                    "_module": "Categories",
+                    "metadata": {"id": "3"},
+                    "attr": {"data-id": "3", "data-lvl": "2"},
+                    "children": {
+                        "next_offset": -1,
+                        "records": []
+                    }
+                },
+                {
+                    "id": "4",
+                    "name": "Fourth",
+                    "date_entered": "2014-10-13 10:11:51",
+                    "date_modified": "2014-10-13 10:11:51",
+                    "modified_user_id": "1",
+                    "created_by": "1",
+                    "description": null,
+                    "deleted": "0",
+                    "source_id": null,
+                    "source_type": null,
+                    "source_meta": null,
+                    "root": "76c5ad26-21db-1be5-85ee-54258f68dd4a",
+                    "lft": "12",
+                    "rgt": "12",
+                    "lvl": "1",
+                    "data": "Fourth",
+                    "_module": "Categories",
+                    "metadata": {"id": "4"},
+                    "attr": {"data-id": "4", "data-lvl": "2"},
+                    "children": {
+                        "next_offset": -1,
+                        "records": []
+                    }
+                }
+            ],
+            "next_offset": -1
+        }
+    },
+    {
+        "id": "2",
+        "name": "Second",
+        "date_entered": "2014-10-13 10:11:58",
+        "date_modified": "2014-10-13 10:11:58",
+        "modified_user_id": "1",
+        "created_by": "1",
+        "description": null,
+        "deleted": "0",
+        "source_id": null,
+        "source_type": null,
+        "source_meta": null,
+        "root": "76c5ad26-21db-1be5-85ee-54258f68dd4a",
+        "lft": "10",
+        "rgt": "11",
+        "lvl": "1",
+        "children": {
+            "next_offset": -1,
+            "records": []
+        },
+        "data": "Second",
+        "_module": "Categories",
+        "metadata": {"id": "2"},
+        "attr": {"data-id": "2", "data-lvl": "1"}
+    }
+]

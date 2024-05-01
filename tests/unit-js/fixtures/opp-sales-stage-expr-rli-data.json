@@ -1,0 +1,644 @@
+{
+    "next_offset": -1,
+    "records": [
+        {
+            "id": "testRli1",
+            "name": "Test RLI 1",
+            "sales_stage": "Prospecting",
+            "date_closed": "2019-05-17",
+            "date_closed_timestamp": 1558051200,
+            "best_case": "125.000000",
+            "likely_case": "100.000000",
+            "worst_case": "420.190000",
+            "date_entered": "2019-05-13T15:43:34-04:00",
+            "date_modified": "2019-05-14T09:45:30-04:00",
+            "modified_user_id": "1",
+            "modified_by_name": "Administrator",
+            "modified_user_link": {
+                "full_name": "Administrator",
+                "id": "1",
+                "_acl": {
+                    "fields": {
+                        "pwd_last_changed": {
+                            "write": "no",
+                            "create": "no"
+                        },
+                        "last_login": {
+                            "write": "no",
+                            "create": "no"
+                        }
+                    },
+                    "delete": "no",
+                    "_hash": "08b99a97c2e8d792f7a44d8882b5af6d"
+                }
+            },
+            "created_by": "seed_max_id",
+            "created_by_name": "Max Jensen",
+            "created_by_link": {
+                "full_name": "Max Jensen",
+                "id": "seed_max_id",
+                "_acl": {
+                    "fields": [],
+                    "_hash": "654d337e0e912edaa00dbb0fb3dc3c17"
+                }
+            },
+            "description": "",
+            "deleted": false,
+            "product_template_id": "b7bd00a8-75b8-11e9-886d-80e65003dbfc",
+            "product_template_name": "Dominic Gadget",
+            "rli_templates_link": {
+                "name": "Dominic Gadget",
+                "id": "b7bd00a8-75b8-11e9-886d-80e65003dbfc",
+                "_acl": {
+                    "fields": [],
+                    "_hash": "654d337e0e912edaa00dbb0fb3dc3c17"
+                }
+            },
+            "account_id": "009d9e28-75b8-11e9-8174-80e65003dbfc",
+            "total_amount": "75526.620000",
+            "type_id": "",
+            "quote_id": "",
+            "manufacturer_id": "",
+            "manufacturer_name": "",
+            "manufacturers": {
+                "name": "",
+                "id": "",
+                "_acl": {
+                    "fields": [],
+                    "_hash": "654d337e0e912edaa00dbb0fb3dc3c17"
+                }
+            },
+            "category_id": "b7b06aa0-75b8-11e9-8de9-80e65003dbfc",
+            "category_name": "Stroh Widgets",
+            "rli_categories_link": {
+                "name": "Stroh Widgets",
+                "id": "b7b06aa0-75b8-11e9-8de9-80e65003dbfc",
+                "_acl": {
+                    "fields": [],
+                    "_hash": "654d337e0e912edaa00dbb0fb3dc3c17"
+                }
+            },
+            "mft_part_num": "Waverly Trading House 623164XYZ987",
+            "vendor_part_num": "",
+            "date_purchased": "",
+            "cost_price": "475.000000",
+            "discount_price": "773.190000",
+            "discount_amount": "246.000000",
+            "discount_rate_percent": 0.320000000000000006661338147750939242541790008544921875,
+            "discount_amount_usdollar": 246,
+            "discount_select": false,
+            "deal_calc": "246.000000",
+            "deal_calc_usdollar": "246.000000",
+            "list_price": "781.000000",
+            "cost_usdollar": "475.000000",
+            "discount_usdollar": "773.190000",
+            "list_usdollar": "781.000000",
+            "status": "",
+            "tax_class": "Taxable",
+            "website": "",
+            "weight": 39,
+            "quantity": 98,
+            "support_name": "",
+            "support_description": "",
+            "support_contact": "",
+            "support_term": "",
+            "date_support_expires": "",
+            "date_support_starts": "",
+            "pricing_formula": "",
+            "pricing_factor": null,
+            "serial_number": "",
+            "asset_number": "",
+            "book_value": "0.000000",
+            "book_value_usdollar": "0.000000",
+            "book_value_date": "",
+            "next_step": "",
+            "commit_stage": "exclude",
+            "probability": 10,
+            "lead_source": "Campaign",
+            "campaign_id": "",
+            "campaign_name": "",
+            "campaign_revenuelineitems": {
+                "name": "",
+                "id": "",
+                "_acl": {
+                    "fields": [],
+                    "_hash": "654d337e0e912edaa00dbb0fb3dc3c17"
+                }
+            },
+            "quote_name": "",
+            "quotes": {
+                "name": "",
+                "id": "",
+                "_acl": {
+                    "fields": [],
+                    "_hash": "654d337e0e912edaa00dbb0fb3dc3c17"
+                }
+            },
+            "opportunity_id": "testOpp1",
+            "opportunity_name": "Test Opp 1",
+            "opportunities": {
+                "name": "Test Opp 1",
+                "id": "testOpp1",
+                "_acl": {
+                    "fields": [],
+                    "_hash": "654d337e0e912edaa00dbb0fb3dc3c17"
+                }
+            },
+            "product_type": "",
+            "type_name": "",
+            "revenuelineitem_types_link": {
+                "name": "",
+                "id": "",
+                "_acl": {
+                    "fields": [],
+                    "_hash": "654d337e0e912edaa00dbb0fb3dc3c17"
+                }
+            },
+            "account_name": "Test Acct 1",
+            "account_link": {
+                "name": "Test Acct 1",
+                "id": "testAcct1",
+                "_acl": {
+                    "fields": [],
+                    "_hash": "654d337e0e912edaa00dbb0fb3dc3c17"
+                }
+            },
+            "following": false,
+            "my_favorite": false,
+            "tag": [],
+            "locked_fields": [],
+            "assigned_user_id": "seed_max_id",
+            "assigned_user_name": "Max Jensen",
+            "assigned_user_link": {
+                "full_name": "Max Jensen",
+                "id": "seed_max_id",
+                "_acl": {
+                    "fields": [],
+                    "_hash": "654d337e0e912edaa00dbb0fb3dc3c17"
+                }
+            },
+            "team_count": "",
+            "team_count_link": {
+                "team_count": "",
+                "id": "West",
+                "_acl": {
+                    "fields": [],
+                    "_hash": "654d337e0e912edaa00dbb0fb3dc3c17"
+                }
+            },
+            "team_name": [
+                {
+                    "id": "West",
+                    "name": "West",
+                    "name_2": "",
+                    "primary": true,
+                    "selected": false
+                }
+            ],
+            "currency_id": "-99",
+            "base_rate": "1.000000",
+            "currency_name": "",
+            "currencies": {
+                "name": "",
+                "id": "-99",
+                "_acl": {
+                    "fields": [],
+                    "_hash": "654d337e0e912edaa00dbb0fb3dc3c17"
+                },
+                "symbol": ""
+            },
+            "currency_symbol": "",
+            "_acl": {
+                "fields": {}
+            },
+            "_erased_fields": [],
+            "_module": "RevenueLineItems"
+        },
+        {
+            "id": "testRli2",
+            "name": "Test RLI 2",
+            "sales_stage": "Id. Decision Makers",
+            "date_closed": "2019-04-12",
+            "date_closed_timestamp": 1555027200,
+            "best_case": "175.000000",
+            "likely_case": "150.000000",
+            "worst_case": "4633.000000",
+            "date_entered": "2019-05-13T15:43:34-04:00",
+            "date_modified": "2019-05-14T09:45:26-04:00",
+            "modified_user_id": "1",
+            "modified_by_name": "Administrator",
+            "modified_user_link": {
+                "full_name": "Administrator",
+                "id": "1",
+                "_acl": {
+                    "fields": {
+                        "pwd_last_changed": {
+                            "write": "no",
+                            "create": "no"
+                        },
+                        "last_login": {
+                            "write": "no",
+                            "create": "no"
+                        }
+                    },
+                    "delete": "no",
+                    "_hash": "08b99a97c2e8d792f7a44d8882b5af6d"
+                }
+            },
+            "created_by": "seed_max_id",
+            "created_by_name": "Max Jensen",
+            "created_by_link": {
+                "full_name": "Max Jensen",
+                "id": "seed_max_id",
+                "_acl": {
+                    "fields": [],
+                    "_hash": "654d337e0e912edaa00dbb0fb3dc3c17"
+                }
+            },
+            "description": "",
+            "deleted": false,
+            "product_template_id": "b70338c6-75b8-11e9-a95a-80e65003dbfc",
+            "product_template_name": "Akilah Gadget",
+            "rli_templates_link": {
+                "name": "Akilah Gadget",
+                "id": "b70338c6-75b8-11e9-a95a-80e65003dbfc",
+                "_acl": {
+                    "fields": [],
+                    "_hash": "654d337e0e912edaa00dbb0fb3dc3c17"
+                }
+            },
+            "account_id": "009d9e28-75b8-11e9-8174-80e65003dbfc",
+            "total_amount": "4632.999980",
+            "type_id": "",
+            "quote_id": "",
+            "manufacturer_id": "",
+            "manufacturer_name": "",
+            "manufacturers": {
+                "name": "",
+                "id": "",
+                "_acl": {
+                    "fields": [],
+                    "_hash": "654d337e0e912edaa00dbb0fb3dc3c17"
+                }
+            },
+            "category_id": "b88380a2-75b8-11e9-a8c2-80e65003dbfc",
+            "category_name": "Lizaola Widgets",
+            "rli_categories_link": {
+                "name": "Lizaola Widgets",
+                "id": "b88380a2-75b8-11e9-a8c2-80e65003dbfc",
+                "_acl": {
+                    "fields": [],
+                    "_hash": "654d337e0e912edaa00dbb0fb3dc3c17"
+                }
+            },
+            "mft_part_num": "Chandler Logistics Inc 208154XYZ987",
+            "vendor_part_num": "",
+            "date_purchased": "",
+            "cost_price": "2316.500000",
+            "discount_price": "94.551020",
+            "discount_amount": "0.000000",
+            "discount_rate_percent": 0,
+            "discount_amount_usdollar": 0,
+            "discount_select": false,
+            "deal_calc": "0.000000",
+            "deal_calc_usdollar": "0.000000",
+            "list_price": "4633.000000",
+            "cost_usdollar": "2316.500000",
+            "discount_usdollar": "94.551020",
+            "list_usdollar": "4633.000000",
+            "status": "",
+            "tax_class": "Taxable",
+            "website": "",
+            "weight": 21,
+            "quantity": 49,
+            "support_name": "",
+            "support_description": "",
+            "support_contact": "",
+            "support_term": "",
+            "date_support_expires": "",
+            "date_support_starts": "",
+            "pricing_formula": "",
+            "pricing_factor": null,
+            "serial_number": "",
+            "asset_number": "",
+            "book_value": "0.000000",
+            "book_value_usdollar": "0.000000",
+            "book_value_date": "",
+            "next_step": "",
+            "commit_stage": "exclude",
+            "probability": 40,
+            "lead_source": "Word of mouth",
+            "campaign_id": "",
+            "campaign_name": "",
+            "campaign_revenuelineitems": {
+                "name": "",
+                "id": "",
+                "_acl": {
+                    "fields": [],
+                    "_hash": "654d337e0e912edaa00dbb0fb3dc3c17"
+                }
+            },
+            "quote_name": "",
+            "quotes": {
+                "name": "",
+                "id": "",
+                "_acl": {
+                    "fields": [],
+                    "_hash": "654d337e0e912edaa00dbb0fb3dc3c17"
+                }
+            },
+            "opportunity_id": "testOpp1",
+            "opportunity_name": "Test Opp 1",
+            "opportunities": {
+                "name": "Test Opp 1",
+                "id": "testOpp1",
+                "_acl": {
+                    "fields": [],
+                    "_hash": "654d337e0e912edaa00dbb0fb3dc3c17"
+                }
+            },
+            "product_type": "",
+            "type_name": "",
+            "revenuelineitem_types_link": {
+                "name": "",
+                "id": "",
+                "_acl": {
+                    "fields": [],
+                    "_hash": "654d337e0e912edaa00dbb0fb3dc3c17"
+                }
+            },
+            "account_name": "Test Acct 1",
+            "account_link": {
+                "name": "Test Acct 1",
+                "id": "testAcct1",
+                "_acl": {
+                    "fields": [],
+                    "_hash": "654d337e0e912edaa00dbb0fb3dc3c17"
+                }
+            },
+            "following": false,
+            "my_favorite": false,
+            "tag": [],
+            "locked_fields": [],
+            "assigned_user_id": "seed_max_id",
+            "assigned_user_name": "Max Jensen",
+            "assigned_user_link": {
+                "full_name": "Max Jensen",
+                "id": "seed_max_id",
+                "_acl": {
+                    "fields": [],
+                    "_hash": "654d337e0e912edaa00dbb0fb3dc3c17"
+                }
+            },
+            "team_count": "",
+            "team_count_link": {
+                "team_count": "",
+                "id": "West",
+                "_acl": {
+                    "fields": [],
+                    "_hash": "654d337e0e912edaa00dbb0fb3dc3c17"
+                }
+            },
+            "team_name": [
+                {
+                    "id": "West",
+                    "name": "West",
+                    "name_2": "",
+                    "primary": true,
+                    "selected": false
+                }
+            ],
+            "currency_id": "-99",
+            "base_rate": "1.000000",
+            "currency_name": "",
+            "currencies": {
+                "name": "",
+                "id": "-99",
+                "_acl": {
+                    "fields": [],
+                    "_hash": "654d337e0e912edaa00dbb0fb3dc3c17"
+                },
+                "symbol": ""
+            },
+            "currency_symbol": "",
+            "_acl": {
+                "fields": {}
+            },
+            "_erased_fields": [],
+            "_module": "RevenueLineItems"
+        },
+        {
+            "id": "testRli3",
+            "name": "Test RLI 3",
+            "sales_stage": "Negotiation\/Review",
+            "date_closed": "2019-04-09",
+            "date_closed_timestamp": 1554768000,
+            "best_case": "150.000000",
+            "likely_case": "125.000000",
+            "worst_case": "737.000000",
+            "date_entered": "2019-05-13T15:43:34-04:00",
+            "date_modified": "2019-05-14T09:44:36-04:00",
+            "modified_user_id": "1",
+            "modified_by_name": "Administrator",
+            "modified_user_link": {
+                "full_name": "Administrator",
+                "id": "1",
+                "_acl": {
+                    "fields": {
+                        "pwd_last_changed": {
+                            "write": "no",
+                            "create": "no"
+                        },
+                        "last_login": {
+                            "write": "no",
+                            "create": "no"
+                        }
+                    },
+                    "delete": "no",
+                    "_hash": "08b99a97c2e8d792f7a44d8882b5af6d"
+                }
+            },
+            "created_by": "seed_max_id",
+            "created_by_name": "Max Jensen",
+            "created_by_link": {
+                "full_name": "Max Jensen",
+                "id": "seed_max_id",
+                "_acl": {
+                    "fields": [],
+                    "_hash": "654d337e0e912edaa00dbb0fb3dc3c17"
+                }
+            },
+            "description": "",
+            "deleted": false,
+            "product_template_id": "b70338c6-75b8-11e9-a95a-80e65003dbfc",
+            "product_template_name": "Akilah Gadget",
+            "rli_templates_link": {
+                "name": "Akilah Gadget",
+                "id": "b70338c6-75b8-11e9-a95a-80e65003dbfc",
+                "_acl": {
+                    "fields": [],
+                    "_hash": "654d337e0e912edaa00dbb0fb3dc3c17"
+                }
+            },
+            "account_id": "009d9e28-75b8-11e9-8174-80e65003dbfc",
+            "total_amount": "22731.000000",
+            "type_id": "",
+            "quote_id": "",
+            "manufacturer_id": "",
+            "manufacturer_name": "",
+            "manufacturers": {
+                "name": "",
+                "id": "",
+                "_acl": {
+                    "fields": [],
+                    "_hash": "654d337e0e912edaa00dbb0fb3dc3c17"
+                }
+            },
+            "category_id": "b6ff5d5a-75b8-11e9-ab62-80e65003dbfc",
+            "category_name": "Peskin Widgets",
+            "rli_categories_link": {
+                "name": "Peskin Widgets",
+                "id": "b6ff5d5a-75b8-11e9-ab62-80e65003dbfc",
+                "_acl": {
+                    "fields": [],
+                    "_hash": "654d337e0e912edaa00dbb0fb3dc3c17"
+                }
+            },
+            "mft_part_num": "Chandler Logistics Inc 208154XYZ987",
+            "vendor_part_num": "",
+            "date_purchased": "",
+            "cost_price": "542.000000",
+            "discount_price": "737.000000",
+            "discount_amount": "116.000000",
+            "discount_rate_percent": 0.5100000000000000088817841970012523233890533447265625,
+            "discount_amount_usdollar": 116,
+            "discount_select": false,
+            "deal_calc": "116.000000",
+            "deal_calc_usdollar": "116.000000",
+            "list_price": "737.000000",
+            "cost_usdollar": "542.000000",
+            "discount_usdollar": "737.000000",
+            "list_usdollar": "737.000000",
+            "status": "",
+            "tax_class": "Taxable",
+            "website": "",
+            "weight": 21,
+            "quantity": 31,
+            "support_name": "",
+            "support_description": "",
+            "support_contact": "",
+            "support_term": "",
+            "date_support_expires": "",
+            "date_support_starts": "",
+            "pricing_formula": "",
+            "pricing_factor": null,
+            "serial_number": "",
+            "asset_number": "",
+            "book_value": "0.000000",
+            "book_value_usdollar": "0.000000",
+            "book_value_date": "",
+            "next_step": "",
+            "commit_stage": "include",
+            "probability": 80,
+            "lead_source": "",
+            "campaign_id": "",
+            "campaign_name": "",
+            "campaign_revenuelineitems": {
+                "name": "",
+                "id": "",
+                "_acl": {
+                    "fields": [],
+                    "_hash": "654d337e0e912edaa00dbb0fb3dc3c17"
+                }
+            },
+            "quote_name": "",
+            "quotes": {
+                "name": "",
+                "id": "",
+                "_acl": {
+                    "fields": [],
+                    "_hash": "654d337e0e912edaa00dbb0fb3dc3c17"
+                }
+            },
+            "opportunity_id": "testOpp1",
+            "opportunity_name": "Test Opp 1",
+            "opportunities": {
+                "name": "Test Opp 1",
+                "id": "testOpp1",
+                "_acl": {
+                    "fields": [],
+                    "_hash": "654d337e0e912edaa00dbb0fb3dc3c17"
+                }
+            },
+            "product_type": "",
+            "type_name": "",
+            "revenuelineitem_types_link": {
+                "name": "",
+                "id": "",
+                "_acl": {
+                    "fields": [],
+                    "_hash": "654d337e0e912edaa00dbb0fb3dc3c17"
+                }
+            },
+            "account_name": "Test Acct 1",
+            "account_link": {
+                "name": "Test Acct 1",
+                "id": "testAcct1",
+                "_acl": {
+                    "fields": [],
+                    "_hash": "654d337e0e912edaa00dbb0fb3dc3c17"
+                }
+            },
+            "following": false,
+            "my_favorite": false,
+            "tag": [],
+            "locked_fields": [],
+            "assigned_user_id": "seed_max_id",
+            "assigned_user_name": "Max Jensen",
+            "assigned_user_link": {
+                "full_name": "Max Jensen",
+                "id": "seed_max_id",
+                "_acl": {
+                    "fields": [],
+                    "_hash": "654d337e0e912edaa00dbb0fb3dc3c17"
+                }
+            },
+            "team_count": "",
+            "team_count_link": {
+                "team_count": "",
+                "id": "West",
+                "_acl": {
+                    "fields": [],
+                    "_hash": "654d337e0e912edaa00dbb0fb3dc3c17"
+                }
+            },
+            "team_name": [
+                {
+                    "id": "West",
+                    "name": "West",
+                    "name_2": "",
+                    "primary": true,
+                    "selected": false
+                }
+            ],
+            "currency_id": "-99",
+            "base_rate": "1.000000",
+            "currency_name": "",
+            "currencies": {
+                "name": "",
+                "id": "-99",
+                "_acl": {
+                    "fields": [],
+                    "_hash": "654d337e0e912edaa00dbb0fb3dc3c17"
+                },
+                "symbol": ""
+            },
+            "currency_symbol": "",
+            "_acl": {
+                "fields": {}
+            },
+            "_erased_fields": [],
+            "_module": "RevenueLineItems"
+        }
+    ]
+}

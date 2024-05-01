@@ -1,0 +1,15 @@
+BEGIN:VCARD
+VERSION:2.1
+N:Tooth;Sweet;;Mr.;M.D.
+FN:Sweet Tooth
+TITLE:CEO
+ORG:IRS
+ADR;HOME:;;123 Main Street;Santa Barbara;Los Angeles;95123;USA
+ADR:;;007 Bell Street;Los Gatos;Santa Clara;91234;USA
+TEL;HOME;PREF:(408)123-4567
+TEL;WORK:(650)999-9876
+TEL;FAX:(408)000-8888
+TEL;CELL:(415)007-0007
+EMAIL:sweett@yahoo.com
+URL:http://www.sugarcrm.com
+END:VCARD

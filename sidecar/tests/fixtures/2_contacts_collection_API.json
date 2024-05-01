@@ -1,0 +1,71 @@
+{
+    "records": [
+        {
+            "id": "ff8589cc-368c-11e7-abe6-20c9d048ef45",
+            "name": "Clarinda Pina",
+            "date_modified": "2017-05-11T21:00:56+00:00",
+            "picture": "",
+            "accept_status_calls": "none",
+            "locked_fields": [],
+            "email": [
+                {
+                    "email_address": "im.im@example.info",
+                    "primary_address": true,
+                    "reply_to_address": false,
+                    "invalid_email": false,
+                    "opt_out": false,
+                    "email_address_id": "ff863958-368c-11e7-91a0-20c9d048ef45"
+                },
+                {
+                    "email_address": "info.section@example.tw",
+                    "primary_address": false,
+                    "reply_to_address": false,
+                    "invalid_email": false,
+                    "opt_out": true,
+                    "email_address_id": "ff8670f8-368c-11e7-81af-20c9d048ef45"
+                }
+            ],
+            "_acl": {
+                "fields": {}
+            },
+            "_module": "Contacts",
+            "_link": "contacts"
+        },
+        {
+            "id": "fec28f26-368c-11e7-9dff-20c9d048ef45",
+            "name": "Gertrude Schurg",
+            "date_modified": "2017-05-11T21:00:56+00:00",
+            "picture": "",
+            "accept_status_calls": "none",
+            "locked_fields": [],
+            "email": [
+                {
+                    "email_address": "section.dev.beans@example.edu",
+                    "primary_address": true,
+                    "reply_to_address": false,
+                    "invalid_email": false,
+                    "opt_out": false,
+                    "email_address_id": "fec34678-368c-11e7-a121-20c9d048ef45"
+                },
+                {
+                    "email_address": "beans.the@example.net",
+                    "primary_address": false,
+                    "reply_to_address": false,
+                    "invalid_email": false,
+                    "opt_out": true,
+                    "email_address_id": "fec372c4-368c-11e7-b97c-20c9d048ef45"
+                }
+            ],
+            "_acl": {
+                "fields": {}
+            },
+            "_module": "Contacts",
+            "_link": "contacts"
+        }
+    ],
+    "next_offset": {
+        "contacts": -1,
+        "leads": -1,
+        "users": -1
+    }
+}

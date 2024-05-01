@@ -1,0 +1,52 @@
+<!--
+/*
+ * Your installation or use of this SugarCRM file is subject to the applicable
+ * terms available at
+ * http://support.sugarcrm.com/Resources/Master_Subscription_Agreements/.
+ * If you do not agree to all of the applicable terms or do not have the
+ * authority to bind the entity as an authorized representative, then do not
+ * install or use this SugarCRM file.
+ *
+ * Copyright (C) SugarCRM Inc. All rights reserved.
+ */
+-->
+
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="../../vendor/phpunit/phpunit/phpunit.xsd"
+         colors="true"
+         bootstrap="TestBootstrap.php"
+         beStrictAboutOutputDuringTests="true"
+         failOnIncomplete="true"
+         failOnRisky="true"
+         failOnWarning="true"
+         convertDeprecationsToExceptions="false"
+>
+    <php>
+        <ini name="intl.default_locale" value="en"/>
+        <ini name="intl.error_level" value="0"/>
+        <ini name="memory_limit" value="-1"/>
+    </php>
+    <testsuites>
+        <testsuite name="all">
+            <directory>.</directory>
+            <exclude>src/Security/Validator</exclude>
+        </testsuite>
+        <testsuite name="custom">
+            <directory>../../custom/tests/unit-php/</directory>
+        </testsuite>
+    </testsuites>
+    <coverage>
+        <include>
+            <directory>../../clients</directory>
+            <directory>../../data</directory>
+            <directory>../../etc</directory>
+            <directory>../../include</directory>
+            <directory>../../modules</directory>
+            <directory>../../src</directory>
+            <directory>../../upgrade</directory>
+        </include>
+        <exclude>
+            <file>../../include/SugarObjects/templates/file/views/view.edit.php</file>
+        </exclude>
+    </coverage>
+</phpunit>

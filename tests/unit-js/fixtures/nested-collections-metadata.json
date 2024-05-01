@@ -1,0 +1,345 @@
+{
+    "_hash": "allMetaHash",
+    "modules": {
+        "Quotes": {
+            "_hash": "quotesHash",
+            "fields": {
+                "_hash": "quotesFieldsHash",
+                "id": {
+                    "name": "id",
+                    "type": "id"
+                },
+                "name": {
+                    "name": "name",
+                    "type": "name"
+                },
+                "new_sub": {
+                    "name": "new_sub",
+                    "type": "currency",
+                    "formula": "rollupCurrencySum($product_bundles, \"new_sub\")",
+                    "comment": "Total value of all bundles after discounts"
+                },
+                "bundles": {
+                    "name": "bundles",
+                    "type": "collection",
+                    "links": [
+                        "product_bundles"
+                    ]
+                },
+                "product_bundles": {
+                    "name": "product_bundles",
+                    "relationship": "product_bundle_quote",
+                    "type": "link"
+                }
+            },
+            "views": {
+                "detail": {
+                    "meta": {
+                        "panels": [
+                            {
+                                "fields": {
+                                    "amount": {
+                                        "name": "amount",
+                                        "type": "currency"
+                                    },
+                                    "name": {
+                                        "name": "name",
+                                        "type": "name"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            "dependencies": [
+                {
+                    "name": "deal_tot",
+                    "hooks": [
+                        "all"
+                    ],
+                    "trigger": "true",
+                    "triggerFields": [
+                        "product_bundles"
+                    ],
+                    "relatedFields": [
+                        "new_sub"
+                    ],
+                    "onload": false,
+                    "isRelated": true,
+                    "actions": [
+                        {
+                            "action": "SetValue",
+                            "params": {
+                                "target": "new_sub",
+                                "value": "rollupCurrencySum($product_bundles, \"new_sub\")",
+                                "errorValue": null
+                            }
+                        }
+                    ],
+                    "notActions": []
+                }
+            ]
+        },
+        "ProductBundles": {
+            "_hash": "pbHash",
+            "fields": {
+                "_hash": "pbFieldsHash",
+                "id": {
+                    "name": "id",
+                    "type": "id"
+                },
+                "name": {
+                    "name": "name",
+                    "type": "name"
+                },
+                "new_sub": {
+                    "name": "new_sub",
+                    "type": "currency",
+                    "formula": "currencySubtract($subtotal, $deal_tot)",
+                    "comment": "Total proce of group after discounts"
+                },
+                "subtotal": {
+                    "name": "subtotal",
+                    "type": "currency",
+                    "formula": "rollupCurrencySum($products, \"subtotal\")"
+                },
+                "deal_tot": {
+                    "name": "deal_tot",
+                    "type": "currency",
+                    "formula": "rollupCurrencySum($products, \"deal_calc\")",
+                    "comment": "Total discount of group"
+                },
+                "product_bundle_items": {
+                    "name": "product_bundle_items",
+                    "type": "collection",
+                    "links": [
+                        "products",
+                        "product_bundle_notes"
+                    ]
+                },
+                "products": {
+                    "name": "products",
+                    "relationship": "product_bundle_product",
+                    "type": "link"
+                },
+                "product_bundle_notes": {
+                    "name": "product_bundle_notes",
+                    "relationship": "product_bundle_note",
+                    "type": "link"
+                },
+                "quotes": {
+                    "name": "quotes",
+                    "relationship": "product_bundle_quote",
+                    "type": "link"
+                }
+            },
+            "dependencies": [
+                {
+                    "name": "deal_tot",
+                    "hooks": [
+                        "all"
+                    ],
+                    "trigger": "true",
+                    "triggerFields": [
+                        "products"
+                    ],
+                    "relatedFields": [
+                        "deal_calc",
+                        "subtotal"
+                    ],
+                    "onload": false,
+                    "isRelated": true,
+                    "actions": [
+                        {
+                            "action": "SetValue",
+                            "params": {
+                                "target": "deal_tot",
+                                "value": "rollupCurrencySum($products, \"deal_calc\")",
+                                "errorValue": null
+                            }
+                        },
+                        {
+                            "action": "SetValue",
+                            "params": {
+                                "target": "subtotal",
+                                "value": "rollupCurrencySum($products, \"subtotal\")",
+                                "errorValue": null
+                            }
+                        }
+                    ],
+                    "notActions": []
+                },
+                {
+                    "name": "new_sub",
+                    "hooks": [
+                        "all"
+                    ],
+                    "trigger": "true",
+                    "triggerFields": [
+                        "subtotal",
+                        "deal_tot"
+                    ],
+                    "relatedFields": [
+                        "new_sub"
+                    ],
+                    "onload": false,
+                    "isRelated": false,
+                    "actions": [
+                        {
+                            "action": "SetValue",
+                            "params": {
+                                "target": "new_sub",
+                                "value": "currencySubtract($subtotal, $deal_tot)",
+                                "errorValue": null
+                            }
+                        }
+                    ],
+                    "notActions": []
+                }
+            ]
+        },
+        "ProductBundleNotes": {
+            "fields": {
+                "id": {
+                    "name": "id",
+                    "type": "id"
+                },
+                "name": {
+                    "name": "name",
+                    "type": "name"
+                },
+                "description": {
+                    "name": "description",
+                    "type": "text"
+                },
+                "bundles": {
+                    "name": "bundles",
+                    "relationship": "product_bundle_note",
+                    "type": "link"
+                }
+            },
+            "views": {}
+        },
+        "Products": {
+            "_hash": "productsHash",
+            "fields": {
+                "_hash": "productsFieldsHash",
+                "bundle": {
+                    "name": "bundle",
+                    "relationship": "product_bundle_product",
+                    "type": "link"
+                },
+                "deal_calc": {
+                    "name": "deal_calc",
+                    "type": "currency",
+                    "formula": "currencyMultiply(currencyMultiply($discount_price, $quantity), currencyDivide($discount_amount, 100))",
+                    "comment": "Total calculated discount amount (Not discounted price)"
+                },
+                "discount_price": {
+                    "name": "discount_price",
+                    "type": "currency",
+                    "comment": "Price BEFORE discount is applied"
+                },
+                "quantity": {
+                    "name": "quantity",
+                    "type": "int"
+                },
+                "discount_amount": {
+                    "name": "discount_amount",
+                    "type": "currency"
+                },
+                "subtotal": {
+                    "name": "subtotal",
+                    "type": "currency",
+                    "formula": "ifElse(equal($quantity, 0), 0, currencyMultiply($discount_price, $quantity))",
+                    "comment": "Total Price BEFORE discount is applied"
+                }
+            },
+            "dependencies": [
+                {
+                    "name": "deal_calc",
+                    "hooks": [
+                        "all"
+                    ],
+                    "trigger": "true",
+                    "triggerFields": [
+                        "discount_price",
+                        "quantity",
+                        "discount_amount"
+                    ],
+                    "relatedFields": [
+                        "deal_calc",
+                        "subtotal"
+                    ],
+                    "onload": false,
+                    "isRelated": false,
+                    "actions": [
+                        {
+                            "action": "SetValue",
+                            "params": {
+                                "target": "deal_calc",
+                                "value": "currencyMultiply(currencyMultiply($discount_price, $quantity), currencyDivide($discount_amount, 100))",
+                                "errorValue": null
+                            }
+                        },
+                        {
+                            "action": "SetValue",
+                            "params": {
+                                "target": "subtotal",
+                                "value": "ifElse(equal($quantity, 0), 0, currencyMultiply($discount_price, $quantity))",
+                                "errorValue": null
+                            }
+                        }
+                    ],
+                    "notActions": []
+                }
+            ]
+        }
+    },
+    "relationships": {
+        "_hash": "_relationshipsHash",
+        "product_bundle_quote": {
+            "name": "product_bundle_quote",
+            "relationship_type": "one-to-many",
+            "true_relationship_type": "one-to-many",
+            "join_key_lhs": "quote_id",
+            "join_key_rhs": "bundle_id",
+            "join_table": "product_bundle_quote",
+            "lhs_key": "id",
+            "lhs_module": "Quotes",
+            "lhs_table": "quotes",
+            "rhs_key": "id",
+            "rhs_module": "ProductBundles",
+            "rhs_table": "product_bundles"
+        },
+        "product_bundle_product": {
+            "join_key_lhs": "bundle_id",
+            "join_key_rhs": "product_id",
+            "join_table": "product_bundle_product",
+            "lhs_key": "id",
+            "lhs_module": "ProductBundles",
+            "lhs_table": "product_bundles",
+            "name": "product_bundle_product",
+            "relationship_type": "many-to-many",
+            "rhs_key": "id",
+            "rhs_module": "Products",
+            "rhs_table": "products",
+            "true_relationship_type": "one-to-many"
+        },
+        "product_bundle_note": {
+            "join_key_lhs": "bundle_id",
+            "join_key_rhs": "note_id",
+            "join_table": "product_bundle_note",
+            "lhs_key": "id",
+            "lhs_module": "ProductBundles",
+            "lhs_table": "product_bundles",
+            "name": "product_bundle_note",
+            "relationship_type": "many-to-many",
+            "rhs_key": "id",
+            "rhs_module": "ProductBundleNotes",
+            "rhs_table": "product_bundle_notes",
+            "true_relationship_type": "one-to-many"
+        }
+    }
+}

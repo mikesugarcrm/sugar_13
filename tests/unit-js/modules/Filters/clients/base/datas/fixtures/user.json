@@ -1,0 +1,12 @@
+[
+    {
+        "id": "user-filter-id-0",
+        "name": "My Awesome Filter",
+        "filter_definition": []
+    },
+    {
+        "id": "user-filter-id-1",
+        "name": "My Favorite Filter",
+        "filter_definition": []
+    }
+]

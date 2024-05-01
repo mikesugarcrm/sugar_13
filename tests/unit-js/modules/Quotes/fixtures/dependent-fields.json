@@ -1,0 +1,472 @@
+{
+    "Quotes": {
+        "currency_id": {
+            "related": {
+                "subtotal": {
+                    "module": "Quotes",
+                    "field": "subtotal",
+                    "reason": "related_fields"
+                },
+                "discount": {
+                    "module": "Quotes",
+                    "field": "discount",
+                    "reason": "related_fields"
+                },
+                "new_sub": {
+                    "module": "Quotes",
+                    "field": "new_sub",
+                    "reason": "related_fields"
+                },
+                "tax": {
+                    "module": "Quotes",
+                    "field": "tax",
+                    "reason": "related_fields"
+                },
+                "shipping": {
+                    "module": "Quotes",
+                    "field": "shipping",
+                    "reason": "related_fields"
+                },
+                "subtotal_usdollar": {
+                    "module": "Quotes",
+                    "field": "subtotal_usdollar",
+                    "reason": "related_fields"
+                }
+            }
+        },
+        "base_rate": {
+            "related": {
+                "subtotal": {
+                    "module": "Quotes",
+                    "field": "subtotal",
+                    "reason": "related_fields"
+                },
+                "discount": {
+                    "module": "Quotes",
+                    "field": "discount",
+                    "reason": "related_fields"
+                },
+                "new_sub": {
+                    "module": "Quotes",
+                    "field": "new_sub",
+                    "reason": "related_fields"
+                },
+                "tax": {
+                    "module": "Quotes",
+                    "field": "tax",
+                    "reason": "related_fields"
+                },
+                "shipping": {
+                    "module": "Quotes",
+                    "field": "shipping",
+                    "reason": "related_fields"
+                },
+                "subtotal_usdollar": {
+                    "module": "Quotes",
+                    "field": "subtotal_usdollar",
+                    "reason": "related_fields"
+                }
+            },
+            "locked": {
+                "subtotal_usdollar": {
+                    "module": "Quotes",
+                    "field": "subtotal_usdollar",
+                    "reason": "formula"
+                },
+                "deal_tot_usdollar": {
+                    "module": "Quotes",
+                    "field": "deal_tot_usdollar",
+                    "reason": "formula"
+                }
+            }
+        },
+        "taxable_subtotal": {
+            "locked": {
+                "tax": {
+                    "module": "Quotes",
+                    "field": "tax",
+                    "reason": "formula"
+                }
+            },
+            "related": {
+                "tax": {
+                    "module": "Quotes",
+                    "field": "tax",
+                    "reason": "related_fields"
+                }
+            }
+        },
+        "taxrate_value": {
+            "locked": {
+                "tax": {
+                    "module": "Quotes",
+                    "field": "tax",
+                    "reason": "formula"
+                }
+            },
+            "related": {
+                "tax": {
+                    "module": "Quotes",
+                    "field": "tax",
+                    "reason": "related_fields"
+                }
+            }
+        },
+        "subtotal_usdollar": {
+            "locked": {
+                "deal_tot_discount_percentage": {
+                    "module": "Quotes",
+                    "field": "deal_tot_discount_percentage",
+                    "reason": "formula"
+                }
+            }
+        },
+        "subtotal": {
+            "locked": {
+                "subtotal_usdollar": {
+                    "module": "Quotes",
+                    "field": "subtotal_usdollar",
+                    "reason": "formula"
+                }
+            }
+        },
+        "deal_tot_usdollar": {
+            "locked": {
+                "deal_tot_discount_percentage": {
+                    "module": "Quotes",
+                    "field": "deal_tot_discount_percentage",
+                    "reason": "formula"
+                }
+            }
+        },
+        "deal_tot": {
+            "locked": {
+                "deal_tot_usdollar": {
+                    "module": "Quotes",
+                    "field": "deal_tot_usdollar",
+                    "reason": "formula"
+                }
+            }
+        },
+        "tax": {
+            "locked": {
+                "total": {
+                    "module": "Quotes",
+                    "field": "total",
+                    "reason": "formula"
+                }
+            }
+        },
+        "shipping": {
+            "locked": {
+                "total": {
+                    "module": "Quotes",
+                    "field": "total",
+                    "reason": "formula"
+                }
+            }
+        }
+    },
+    "ProductBundles": {
+        "subtotal": {
+            "locked": {
+                "subtotal": {
+                    "module": "Quotes",
+                    "field": "subtotal",
+                    "reason": "rollup"
+                },
+                "new_sub": {
+                    "module": "ProductBundles",
+                    "field": "new_sub",
+                    "reason": "formula"
+                }
+            }
+        },
+        "currency_id": {
+            "related": {
+                "subtotal": {
+                    "module": "ProductBundles",
+                    "field": "subtotal",
+                    "reason": "related_fields"
+                },
+                "deal_tot": {
+                    "module": "ProductBundles",
+                    "field": "deal_tot",
+                    "reason": "related_fields"
+                },
+                "new_sub": {
+                    "module": "ProductBundles",
+                    "field": "new_sub",
+                    "reason": "related_fields"
+                }
+            }
+        },
+        "base_rate": {
+            "related": {
+                "subtotal": {
+                    "module": "ProductBundles",
+                    "field": "subtotal",
+                    "reason": "related_fields"
+                },
+                "deal_tot": {
+                    "module": "ProductBundles",
+                    "field": "deal_tot",
+                    "reason": "related_fields"
+                },
+                "new_sub": {
+                    "module": "ProductBundles",
+                    "field": "new_sub",
+                    "reason": "related_fields"
+                }
+            }
+        },
+        "new_sub": {
+            "locked": {
+                "new_sub": {
+                    "module": "Quotes",
+                    "field": "new_sub",
+                    "reason": "rollup"
+                },
+                "total": {
+                    "module": "Quotes",
+                    "field": "total",
+                    "reason": "rollup"
+                }
+            }
+        },
+        "deal_tot": {
+            "locked": {
+                "new_sub": {
+                    "module": "ProductBundles",
+                    "field": "new_sub",
+                    "reason": "formula"
+                },
+                "deal_tot": {
+                    "module": "Quotes",
+                    "field": "deal_tot",
+                    "reason": "rollup"
+                }
+            }
+        },
+        "taxable_subtotal": {
+            "locked": {
+                "taxable_subtotal": {
+                    "module": "Quotes",
+                    "field": "taxable_subtotal",
+                    "reason": "rollup"
+                }
+            }
+        }
+    },
+    "Products": {
+        "subtotal": {
+            "locked": {
+                "subtotal": {
+                    "module": "ProductBundles",
+                    "field": "subtotal",
+                    "reason": "rollup"
+                }
+            }
+        },
+        "quantity": {
+            "locked": {
+                "subtotal": {
+                    "module": "Products",
+                    "field": "subtotal",
+                    "reason": "formula"
+                },
+                "deal_calc": {
+                    "module": "Products",
+                    "field": "deal_calc",
+                    "reason": "formula"
+                },
+                "total_amount": {
+                    "module": "Products",
+                    "field": "total_amount",
+                    "reason": "formula"
+                }
+            },
+            "related": {
+                "subtotal": {
+                    "module": "Products",
+                    "field": "subtotal",
+                    "reason": "related_fields"
+                },
+                "deal_calc": {
+                    "module": "Products",
+                    "field": "deal_calc",
+                    "reason": "related_fields"
+                },
+                "total_amount": {
+                    "module": "Products",
+                    "field": "total_amount",
+                    "reason": "related_fields"
+                }
+            }
+        },
+        "discount_price": {
+            "locked": {
+                "subtotal": {
+                    "module": "Products",
+                    "field": "subtotal",
+                    "reason": "formula"
+                },
+                "deal_calc": {
+                    "module": "Products",
+                    "field": "deal_calc",
+                    "reason": "formula"
+                },
+                "total_amount": {
+                    "module": "Products",
+                    "field": "total_amount",
+                    "reason": "formula"
+                }
+            },
+            "related": {
+                "subtotal": {
+                    "module": "Products",
+                    "field": "subtotal",
+                    "reason": "related_fields"
+                },
+                "deal_calc": {
+                    "module": "Products",
+                    "field": "deal_calc",
+                    "reason": "related_fields"
+                },
+                "total_amount": {
+                    "module": "Products",
+                    "field": "total_amount",
+                    "reason": "related_fields"
+                }
+            }
+        },
+        "currency_id": {
+            "related": {
+                "discount_price": {
+                    "module": "Products",
+                    "field": "discount_price",
+                    "reason": "related_fields"
+                },
+                "subtotal": {
+                    "module": "Products",
+                    "field": "subtotal",
+                    "reason": "related_fields"
+                },
+                "discount_amount": {
+                    "module": "Products",
+                    "field": "discount_amount",
+                    "reason": "related_fields"
+                },
+                "deal_calc": {
+                    "module": "Products",
+                    "field": "deal_calc",
+                    "reason": "related_fields"
+                },
+                "total_amount": {
+                    "module": "Products",
+                    "field": "total_amount",
+                    "reason": "related_fields"
+                }
+            }
+        },
+        "base_rate": {
+            "related": {
+                "discount_price": {
+                    "module": "Products",
+                    "field": "discount_price",
+                    "reason": "related_fields"
+                },
+                "subtotal": {
+                    "module": "Products",
+                    "field": "subtotal",
+                    "reason": "related_fields"
+                },
+                "discount_amount": {
+                    "module": "Products",
+                    "field": "discount_amount",
+                    "reason": "related_fields"
+                },
+                "deal_calc": {
+                    "module": "Products",
+                    "field": "deal_calc",
+                    "reason": "related_fields"
+                },
+                "total_amount": {
+                    "module": "Products",
+                    "field": "total_amount",
+                    "reason": "related_fields"
+                }
+            }
+        },
+        "deal_calc": {
+            "locked": {
+                "deal_tot": {
+                    "module": "ProductBundles",
+                    "field": "deal_tot",
+                    "reason": "rollup"
+                }
+            }
+        },
+        "discount_select": {
+            "locked": {
+                "deal_calc": {
+                    "module": "Products",
+                    "field": "deal_calc",
+                    "reason": "formula"
+                },
+                "total_amount": {
+                    "module": "Products",
+                    "field": "total_amount",
+                    "reason": "formula"
+                }
+            },
+            "related": {
+                "discount_amount": {
+                    "module": "Products",
+                    "field": "discount_amount",
+                    "reason": "related_fields"
+                },
+                "total_amount": {
+                    "module": "Products",
+                    "field": "total_amount",
+                    "reason": "related_fields"
+                }
+            }
+        },
+        "discount_amount": {
+            "locked": {
+                "deal_calc": {
+                    "module": "Products",
+                    "field": "deal_calc",
+                    "reason": "formula"
+                },
+                "total_amount": {
+                    "module": "Products",
+                    "field": "total_amount",
+                    "reason": "formula"
+                }
+            },
+            "related": {
+                "deal_calc": {
+                    "module": "Products",
+                    "field": "deal_calc",
+                    "reason": "related_fields"
+                },
+                "total_amount": {
+                    "module": "Products",
+                    "field": "total_amount",
+                    "reason": "related_fields"
+                }
+            }
+        },
+        "total_amount": {
+            "locked": {
+                "taxable_subtotal": {
+                    "module": "ProductBundles",
+                    "field": "taxable_subtotal",
+                    "reason": "rollup"
+                }
+            }
+        }
+    }
+}

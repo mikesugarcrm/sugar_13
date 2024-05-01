@@ -1,0 +1,39 @@
+[
+    {
+        "AbsoluteTime":"2020-08-11T20:40:33.449Z",
+        "Content":"You are now being placed in queue to chat with an agent.",
+        "ContentType":"text/plain",
+        "Id":"2190e24f-9e48-4fc8-9a05-c17ef29e2382",
+        "Type":"MESSAGE",
+        "ParticipantId":"9a9d04e6-3b84-499f-be7c-e46632d633d3",
+        "DisplayName":"SYSTEM_MESSAGE",
+        "ParticipantRole":"SYSTEM"
+    },{
+        "AbsoluteTime":"2020-08-11T20:40:38.987Z",
+        "Content":null,
+        "ContentType":"application/vnd.amazonaws.connect.event.participant.joined",
+        "Id":"5f213bd4-1f22-47a6-8753-7824a748c844",
+        "Type":"EVENT",
+        "ParticipantId":"cca64227-0db2-4ad0-96e1-f543035f3611",
+        "DisplayName":"Jay",
+        "ParticipantRole":"AGENT"
+    },{
+        "AbsoluteTime":"2020-08-11T20:40:45.313Z",
+        "Content":"Hello I am the Customer",
+        "ContentType":"text/plain",
+        "Id":"08559a11-aba1-4e38-a12c-2270bcd8625e",
+        "Type":"MESSAGE",
+        "ParticipantId":"a3c92ad9-2cd9-43aa-a984-875e94d9bec8",
+        "DisplayName":"Customer",
+        "ParticipantRole":"CUSTOMER"
+    },{
+        "AbsoluteTime":"2020-08-11T20:41:00.941Z",
+        "Content":"Hello I am the Agent",
+        "ContentType":"text/plain",
+        "Id":"9430ff36-5c5f-4e56-a3c1-c810424d59e3",
+        "Type":"MESSAGE",
+        "ParticipantId":"cca64227-0db2-4ad0-96e1-f543035f3611",
+        "DisplayName":"Jay",
+        "ParticipantRole":"AGENT"
+    }
+]

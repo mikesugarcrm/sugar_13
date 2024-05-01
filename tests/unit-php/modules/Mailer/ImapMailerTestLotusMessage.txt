@@ -1,0 +1,24 @@
+Content-Type: multipart/related; boundary="=_related 005B83FCC125865E_="
+
+--=_related 005B83FCC125865E_=
+Content-Type: multipart/alternative; boundary="=_alternative 005B83FCC125865E_="
+
+--=_alternative 005B83FCC125865E_=
+Content-Type: text/plain; charset="US-ASCII"
+
+Hi John Doe
+
+--=_alternative 005B83FCC125865E_=
+Content-Type: text/html; charset="US-ASCII"
+
+<span style=" font-size:10pt;font-family:sans-serif">Hi John Doe</span>
+<br>
+<br><img src=cid:_1_0AEFF51C0AEFEEA0005B83FCC125865E style="border:0px solid;">
+--=_alternative 005B83FCC125865E_=--
+
+--=_related 005B83FCC125865E_=
+Content-Type: image/gif
+Content-ID: <_1_0AEFF51C0AEFEEA0005B83FCC125865E>
+Content-Transfer-Encoding: base64
+
+--=_related 005B83FCC125865E_=--
