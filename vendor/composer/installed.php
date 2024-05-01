@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'ffc4a1870171332dfa2924f70691c7fb79ccaab7',
+        'reference' => 'cf884f3d7fa7f6ff3e71c9048b4dfcee57dbdb52',
         'name' => 'sugarcrm/sugarcrm',
         'dev' => true,
     ),
@@ -864,7 +864,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'ffc4a1870171332dfa2924f70691c7fb79ccaab7',
+            'reference' => 'cf884f3d7fa7f6ff3e71c9048b4dfcee57dbdb52',
             'dev_requirement' => false,
         ),
         'symfony/cache' => array(
