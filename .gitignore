@@ -7,6 +7,7 @@
 /upgrades/langpack
 /upgrades/patch
 /upgrades/theme
+/upgrades/module/*
 /custom/blowfish/*
 /custom/history/*
 /*.zip
@@ -17,9 +18,10 @@
 /*.lock
 /*.json
 /*.txt
-*.tar
+/*.tar
 *.ext.php
 .htaccess
+/test.php
 !/vendor/**/*.xml
 /password_set.php
 orderMapping.php
@@ -29,4 +31,6 @@ orderMapping.php
 /custom/src/Console/Command/SugarPackageBuilder
 /portal2/config.js
 .vscode/
-config_override.php
+/config_override.php
+/config.php
+/*.sql
