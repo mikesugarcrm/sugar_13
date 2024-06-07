@@ -4,7 +4,7 @@
     "majorVersion": 0,
     "minorVersion": 99,
     "name": "Test 1",
-    "description": "",
+    "description": "Demo Package Builder",
     "newFields": [
         {
             "id": "6eb738bc-24fc-11ef-a105-9e59d7eb0c17",
