@@ -5,10 +5,37 @@
     "minorVersion": 99,
     "name": "",
     "description": "",
-    "newFields": [],
+    "newFields": [
+        {
+            "id": "6eb738bc-24fc-11ef-a105-9e59d7eb0c17",
+            "name": "mike_c",
+            "vname": "LBL_MIKE_C",
+            "comments": null,
+            "help": null,
+            "custom_module": "Accounts",
+            "type": "varchar",
+            "len": 50,
+            "required": 0,
+            "default_value": null,
+            "date_modified": "2024-06-07 18:33:26",
+            "deleted": 0,
+            "audited": 0,
+            "massupdate": 1,
+            "duplicate_merge": 1,
+            "reportable": 1,
+            "importable": "true",
+            "ext1": null,
+            "ext2": null,
+            "ext3": null,
+            "ext4": null,
+            "autoinc_next": null
+        }
+    ],
     "versionCommitHashes": {
         "0.99": "f7f06400be42fbc3e5c25cf3a82038abd69c46f3"
     },
-    "fieldsMetaDataArchive": [],
+    "fieldsMetaDataArchive": {
+        "Accounts_mike_c": null
+    },
     "files": []
 }
