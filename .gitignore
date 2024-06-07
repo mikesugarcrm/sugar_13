@@ -34,3 +34,4 @@ orderMapping.php
 /config_override.php
 /config.php
 /*.sql
+/command_test.php
