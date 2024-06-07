@@ -1,8 +1,8 @@
 {
     "projectBranchName": "TEST-0001",
     "parentBranchName": "base",
-    "majorVersion": 0,
-    "minorVersion": 99,
+    "majorVersion": 1,
+    "minorVersion": 0,
     "name": "Test 1",
     "description": "Demo Package Builder",
     "newFields": [
@@ -32,7 +32,8 @@
         }
     ],
     "versionCommitHashes": {
-        "0.99": "f7f06400be42fbc3e5c25cf3a82038abd69c46f3"
+        "0.99": "f7f06400be42fbc3e5c25cf3a82038abd69c46f3",
+        "1.00": "bdcd508ba7de91fc7d29d277396b1ffde6e2e702"
     },
     "fieldsMetaDataArchive": {
         "Accounts_mike_c": null
