@@ -5,12 +5,38 @@
     "minorVersion": 99,
     "name": "",
     "description": "",
-    "newFields": [],
+    "newFields": [
+        {
+            "id": "ba93cab2-a5c5-11ef-b078-9e59d7eb0c18",
+            "name": "mike_c",
+            "vname": "LBL_MIKE_C",
+            "comments": null,
+            "help": null,
+            "custom_module": "Tasks",
+            "type": "varchar",
+            "len": 50,
+            "required": 0,
+            "default_value": null,
+            "date_modified": "2024-11-18 15:56:52",
+            "deleted": 0,
+            "audited": 0,
+            "massupdate": 1,
+            "duplicate_merge": 1,
+            "reportable": 1,
+            "importable": "true",
+            "ext1": null,
+            "ext2": null,
+            "ext3": null,
+            "ext4": null,
+            "autoinc_next": null
+        }
+    ],
     "versionCommitHashes": {
         "0.99": "f7f06400be42fbc3e5c25cf3a82038abd69c46f3"
     },
     "fieldsMetaDataArchive": {
-        "Cases_mike_c": "450e88da57930d9796e3afc9a1051734"
+        "Cases_mike_c": "450e88da57930d9796e3afc9a1051734",
+        "Tasks_mike_c": null
     },
     "files": [],
     "post_install_scripts": [
