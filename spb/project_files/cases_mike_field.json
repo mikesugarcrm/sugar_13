@@ -1,0 +1,15 @@
+{
+    "projectBranchName": "cases_mike_field",
+    "parentBranchName": "release_candidate_1",
+    "majorVersion": 0,
+    "minorVersion": 99,
+    "name": "",
+    "description": "",
+    "newFields": [],
+    "versionCommitHashes": {
+        "0.99": "f7f06400be42fbc3e5c25cf3a82038abd69c46f3"
+    },
+    "fieldsMetaDataArchive": [],
+    "files": [],
+    "post_install_scripts": []
+}
