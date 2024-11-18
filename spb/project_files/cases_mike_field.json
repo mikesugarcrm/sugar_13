@@ -38,5 +38,7 @@
         "Cases_mike_c": null
     },
     "files": [],
-    "post_install_scripts": []
+    "post_install_scripts": [
+        "custom\/post_install\/cases_mike_field\/log_cases_mike.php"
+    ]
 }
