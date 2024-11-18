@@ -4,7 +4,7 @@
     "majorVersion": 0,
     "minorVersion": 99,
     "name": "Mike field for Cases",
-    "description": "",
+    "description": "Add the 'Mikes Comments' field to the Cases module",
     "newFields": [
         {
             "id": "4e77ed2e-a5c3-11ef-a0b6-9e59d7eb0c18",
