@@ -5,11 +5,38 @@
     "minorVersion": 99,
     "name": "",
     "description": "",
-    "newFields": [],
+    "newFields": [
+        {
+            "id": "06cfc6d4-0bff-11f0-8f2f-9e59d7eb0c18",
+            "name": "mike_c",
+            "vname": "LBL_MIKE_C",
+            "comments": null,
+            "help": null,
+            "custom_module": "Cases",
+            "type": "varchar",
+            "len": 50,
+            "required": 0,
+            "default_value": null,
+            "date_modified": "2025-03-28 18:04:00",
+            "deleted": 0,
+            "audited": 0,
+            "massupdate": 1,
+            "duplicate_merge": 1,
+            "reportable": 1,
+            "importable": "true",
+            "ext1": null,
+            "ext2": null,
+            "ext3": null,
+            "ext4": null,
+            "autoinc_next": null
+        }
+    ],
     "versionCommitHashes": {
         "0.99": "f7f06400be42fbc3e5c25cf3a82038abd69c46f3"
     },
-    "fieldsMetaDataArchive": [],
+    "fieldsMetaDataArchive": {
+        "Cases_mike_c": null
+    },
     "files": [],
     "pre_execute_scripts": [],
     "post_execute_scripts": [],
